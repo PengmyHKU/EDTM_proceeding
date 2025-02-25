@@ -1,0 +1,2073 @@
+/* Two classes: By time By time*/
+/* Abstract*/
+
+First step: time, Second step: Track
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <title>9th IEEE Electron Devices Technology and Manufacturing Proceedings
+    </title>
+    <style>
+        details {
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        summary {
+            padding: 12px;
+            background: #f8f9fa;
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: bold;
+            position: relative;
+        }
+        summary::marker { display: none; }
+summary::after {
+    content: "▶";
+    position: absolute;
+    right: 15px;
+    transition: transform 0.2s;
+}
+
+details[open] summary::after {
+    transform: rotate(90deg);
+}
+
+/* 内容区块 */
+    .block-container {
+        padding: 15px;
+        background: white;
+    }
+        .paper-block {
+            background-color: #f8f9fa;
+            border-left: 4px solid #007bff;
+            margin: 15px 0;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .paper-title {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+        .paper-author {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #2c3e50; border-bottom: 2px solid #007bff; padding-bottom: 10px;">9th IEEE Electron Devices Technology and Manufacturing Proceedings</h1>
+    <details>
+        <summary>Materials</summary>
+        <div class="paper-block">
+            <div class="paper-title">Contact Engineering of 1L-WSe2 p-FETs: Straightforward WOx Doping and Thickness Dependence</div>
+            <div class="paper-author">Wenyu Wang,Yanda Zhu,Ziyi Wang,Yun Li,Jason Hwang,Xi Lin,Jiaqi Su,Jing-Kai Huang,Sean Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Competing ferroelectric polarization and defect migration induced resistive switching in van der Waals 帣_-In2Se3</div>
+            <div class="paper-author">Yinfeng Long,Saiyu Bu,Han Chen,Kai Liu,Shiyu Zhang,Lin WANG</div>
+        </div>
+        
+        <div class="paper-block">
+            <div class="paper-title">MoS2 transistors based 2T0C DRAM Optimized with Optical Modulation and Read Pulse Compensation</div>
+            <div class="paper-author">Gongpeng Lan,Dongdong Sun,Haotian Fang,Wuqing Fang,Yuanyuan Shi</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High-Performance 2D FETs with Single-Crystal Anatase TiO2 High-庥 Dielectric</div>
+            <div class="paper-author">Ni Yang,Ji Zhang,Yu-Ming Chang,Fangyuan Zheng,Lingqi Li,Chenyang Li,Jian Liu,Dong-Keun Ki,Yi Wan,Sean Li,Kah-Wee Ang,Jingkai Huang,Lain-Jong Li</div>
+        </div>
+        <div class="paper-block">
+            <div class="paper-title">Elemental Sn promotes the formation of single-crystal 庰-Ga2O3 films in MOCVD</div>
+            <div class="paper-author">Long Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Realization of Wafer-scale AlScN ferroelectric films and the Investigation of AlScN/n-GaN Ferroelectric Memristors</div>
+            <div class="paper-author">Mingrui Liu,Hang Zang,Shunpeng Lv,Zhiming Shi,Yuping Jia,Ke Jiang,JianWei Ben,Dan Li,Xiaojuan Sun,Dabing Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Fully Tunable In-Memory Eligibility Traces Based on Ferroelectric-Semiconductor Field-Effect Transistors</div>
+            <div class="paper-author">Junling Liu,Xinrui Guo,Shuo Liu,Yu Zhu,Ming He</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Breakthroughs in Undoped HfO2 Ferroelectric Capacitors Achieved through Enhanced Nanocrystallite Seeding in As-Deposited Films via O2-Plasma ALD</div>
+            <div class="paper-author">Zongwei Shang,Changqing Ye,Hao Li,Xing Wu,Runsheng Wang,Ming Li,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Investigation of Al2O3/SiO2 Interface Charge for the Feasibility Study of Charge Sheet Super Junction</div>
+            <div class="paper-author">Swadhin Kumar Jena,Chiranjibi Padhee,AKSHAY K,Parlapalli Venkata Satyam</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Silicon Doping in Amorphous Gallium Oxide Films by Plasma-Enhanced Atomic Layer Deposition for Dielectric and Optoelectronic Applications</div>
+            <div class="paper-author">Yongjie He,Wei Jingxuan,Jining Yang,Rongxu Bai,Hao Zhu,Qingqing Sun</div>
+        </div>
+    </details>
+    <details>
+        <summary>Materials (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Effect of Cu microstructures on Cu/SiO2 hybrid bonding for 3D IC heterogeneous integration</div>
+            <div class="paper-author">Chih Chen,Huai-En Lin,Wei-Lan Chiu,Hsiang-Hung Chang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Materials for Thermal Dissipation Applications in Stacked Devices</div>
+            <div class="paper-author">Jin Hao Jhang,Sam Vaziri,Mohamadali Malakoutian,Kuan Kan Hu,Isha Dayte,Che Chi Shih,June Fan Hsu,Jen Po Lin,Yunhui Wu,Wei-Yen Woon,Anna Kasperovich,Rohith Soman,jeongkyu Kim,Hsiao Kuan Wei,Xinyu Bao,Masahiro Nomura,Srabanti Chowdhury,Szuya Sandy Liao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Robust OS-FeFETs with Crystallized Anatase-TiO2 Channel-Hafnia Ferroelectric Layer Stack for Integration of 3D Memory Applications</div>
+            <div class="paper-author">Jinfeng Kang,Xujin Song,Chenxi Yu,Dijiang Sun,Jiajia Zhang,Shangze Li,Xiaoyan Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Evaluation of Insulator Candidates for Nanoelectronics Based on 2D Materials</div>
+            <div class="paper-author">Mina Bahrami,Theresia Knobloch,Pedram Khakbaz,Mohammad Davoudi,Alexander Karl,Seyed Mehdi Sattari-Esfahlan,Dominic Waldhoer,Tibor Grasser</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">2D MoS2 Thin-Film Transistors for Large-Area, Flexible Electronics </div>
+            <div class="paper-author">Jong-Hyun Ahn</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Solution-Processed Reduced-Dimensional Cesium Lead Halide Perovskites</div>
+            <div class="paper-author">Gaukhar Nigmetova,Zhuldyz Yelzhanova,Hryhorii Parkhomenko,Meruyert Tilegen,Askhat N. Jumabekov,Tri T. Pham,Annie Ng</div>
+        </div>
+
+    </details>
+    
+    <details>
+        <summary>Process, Tools, Yield, and Manufacturing</summary>
+        <div class="paper-block">
+            <div class="paper-title">Effect of Top Al2O3 Interlayer Thickness on the Memory Window of FeFETs with TiN/Al2O3/Hf0.5Zr0.5O2/SiOx/Si (MIFIS) Gate Structure</div>
+            <div class="paper-author">Tao Hu,Runhao Han,Xinpei Jia,Jia Yang,Zeqi Chen,Xiaoqing Sun,Junshuai Chai,Hao Xu,Xiaolei Wang,Wenwu Wang,Tianchun Ye</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Comparison of border trap density in MIFM capacitors with different interlayers using the C-ln(f) method</div>
+            <div class="paper-author">Min Liao,Hao Xu,Xiaoyu Ke,Yuanyuan Zhao,Jun Shuai Chai,Xiaoqing Sun,Jinjuan Xiang,Xiaolei Wang,Wenwu Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Study of Threshold Voltage Degradation Mechanism of Ferroelectric Field-Effect Transistors (FeFETs) with TiN/SiO2/Hf0.5Zr0.5O2/SiOx/Si (MIFIS) Gate Stacks</div>
+            <div class="paper-author">Zeqi Chen,Tao Hu,Xinpei Jia,Runhao Han,Jia Yang,Yajing Ding,Xiaoqing Sun,Junshuai Chai,Hao Xu,Xiaolei Wang,Wenwu Wang,Tianchun Ye</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Passivation effect on atomic-layer-deposited indium-gallium-zinc-oxide transistors</div>
+            <div class="paper-author">Zhiyu Lin,Jinxiu Zhao,Chen Wang,Mengwei Si</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Fabrication and research of wide-bandgap semiconductor AlN-based unipolar memristors</div>
+            <div class="paper-author">Haiming Qin,Xinpeng Wang,Dayu Zhou,Liang Zeng,Yi Liu,Yi Tong</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Prediction of Endurance Characteristics in Si FeFET with Ferroelectric Hf0.5Zr0.5O2</div>
+            <div class="paper-author">Xinpei Jia,Tao Hu,Junshuai Chai,Mingkai Bai,Xiaoqing Sun,Hao Xu,Xiaolei Wang,Wenwu Wang,Tianchun Ye</div>
+        </div>
+        <div class="paper-block">
+            <div class="paper-title">Achieving High Endurance Ferroelectricity in Hf0.5Zr0.5O2 Thin Films on Ge Substrate through Helium Ion Doping Engineering</div>
+            <div class="paper-author">Peiyuan Du,Huan Liu,Dongya Li,Chengji Jin,Hongrui Zhang,Di Wang,Yian Ding,Bing Chen,Ran Cheng,Mengnan Ke,Xiao Yu,Yan Liu,Yue Hao,Genquan Han</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Indium-Tin-Oxide Transistor with Maximum Transconductance over 1100 弮S/弮m and Cut-Off Frequency of 23 GHz</div>
+            <div class="paper-author">Yuxuan Wang,Jiawei Xie,Zijie Zheng,Gerui Zheng,Rui Shao,Kaizhen Han,Yuye Kang,Xuanqi Chen,XIAO GONG</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Low-Temperature_Trench_Ohmic_Contact_Suitable_for_Self-Aligned_P-GaN_HEMT</div>
+            <div class="paper-author">Zhiqiang Xue</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Low Thermal Budget Ultrathin Ti Silicide for Advanced Backside Contact of Backside Power Delivery Network (BSPDN)</div>
+            <div class="paper-author">Hongxu Liao,Xijun Zhou,Fangze Liu,Lanyi Xie,Haixia Li,Jieyin Zhang,Jianjun Zhang,Xiaoyan Xu,Xia An,Heng Wu,Ru Huang,Ming Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dependence of Dislocation Density Distribution on Radial Temperature Gradient in 300mm Si Wafer during IGBT High Thermal Budget Process</div>
+            <div class="paper-author">Jiuyang Yuan,Bozhou Cai,Yoshiji Miyamura,Wataru Saito,Shin-ichi Nishizawa</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Universal Method to Regulate Contact Resistance in Thin Film Transistors</div>
+            <div class="paper-author">Yanzhuo Wei,Guohui Li,Yanxia Cui,Hongwei Hao,Chen Chen,Dongdong Li,Shan-Ting Zhang</div>
+        </div>
+        <div class="paper-block">
+            <div class="paper-title">Double-Gate Cu-MIC Poly-Ge1-xSnx TFTs on Glass Substrates  via the Gate-Last Process</div>
+            <div class="paper-author">Daiki Goshima,Akito Kurihara,Akito Hara</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multi-output Virtual Metrology for Physical Vapor Deposition using Projective Selection Algorithm</div>
+            <div class="paper-author">Amina Mevic,Andreas Laber,Sandor Szedmak,D鱉enana _onko,Senka Krivic</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Overlay-aware Variation Study of Flip FET and Benchmark with CFET</div>
+            <div class="paper-author">Wanyue Peng,Haoran Lu,Jingru Jiang,Jiacheng Sun,Ming Li,Runsheng Wang,Heng Wu,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Based on Vertical Structures for N-Type Organic Electrochemical Transistors</div>
+            <div class="paper-author">Chuan Liu,Songjia Han,WenJing Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Monolithic and heterogeneous CTFT on glass substrate using Ni-MIC poly-Si TFT and Cu-MIC DG poly-Ge TFT</div>
+            <div class="paper-author">Yuto Ito,Daiki Goshima,Akito Kurihara,Akito Hara</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multi-Scale Thermal Modeling of 3D-Heterogeneous Integrated Processing-Near-Memory Chip for Edge Large Language Model Inference</div>
+            <div class="paper-author">Yuyao Lu,Yudeng Lin,Yiming Zhou,Xing Mou,Zhuodong Kang,Zhipeng Kuang,Peng Yao,Jianshi Tang,He Qian,Huaqiang Wu,Awang Ma,Bin Gao</div>
+        </div>
+        <div class="paper-block">
+            <div class="paper-title">Dual-Functional Volatile and Nonvolatile Resistive Switching Characteristics of Cu/Ga___/Pt Memristor Deposited via Electron Beam Evaporation</div>
+            <div class="paper-author">Nan He,Zi Li,Shuai Chen,Hao Zhang,Xinpeng Wang,Lei Wang,Yi Tong</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Invertible Prediction Model for Si3N4 Wet Etching Using DHF</div>
+            <div class="paper-author">Koki Shibata,Takashi Ota,Koji Ando,Naoko Misawa,Chihiro Matsui,Ken Takeuchi</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">6-inch GaN-on-Si Gold-Free Fabrication Technolgies for Monolithic  Microwave Integrated Circuits (MMICs)</div>
+            <div class="paper-author">Xiaojin Chen,Zhihong Liu,Jin Zhou,Peiyu Mao,Tong Wang,Zhenyuan Li,Hu Wei,Hanghai Du,Weichuan Xing,Weihang Zhang,Xiangdong Li,Jincheng Zhang,Yue Hao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Experimental Investigation of Inserted HfO2 Impact on VFB and Interface via ALD for La2O3 Dipole-first Multi-VT Techniques</div>
+            <div class="paper-author">Yanzhao Wei,Jiaxin Yao,Yu Wang,Qingzhu Zhang,Huaxiang Yin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Remote effect of extra metal layer on TiN electrode on the ferroelectric  properties of Hf0.5Zr0.5O2 thin films</div>
+            <div class="paper-author">Zhipeng Xue,Xiuyan Li,Jingquan Liu,Mengwei Si</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Interface engineering induced digital to analog switching  transition in Hafnium Oxide-based memory device</div>
+            <div class="paper-author">Cong Han,Miaocheng Zhang,Yi Liu,Xinpeng Wang,Hao Zhang,Yi Tong</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">The impact of DC stress on the recoverable tetragonal-to-orthorhombic phase transition in hafnium zirconium oxide capacitors</div>
+            <div class="paper-author">Zhenyu Chen,Dan Lv,Zhiyu Lin,Dongdong Li,Mengwei Si</div>
+        </div>
+        <div class="paper-block">
+            <div class="paper-title">Experiment Investigation on La2O3 Dipole-last Cap-less VFB Tuning Technology Based on Nitrogen Atmosphere</div>
+            <div class="paper-author">yu wang,Jiaxin Yao,Yanzhao Wei,Qingzhu Zhang,Huaxiang Yin</div>
+        </div>
+    
+    </details>
+
+    
+    <details>
+        <summary>Process, Tools, Yield, and Manufacturing (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">The Observation of 2D Electron Gas at Ga2O3/IGZO Interface</div>
+            <div class="paper-author">Jinxiu Zhao,Zhiyu Lin,Chen Wang,Mengwei Si</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dr.</div>
+            <div class="paper-author">QINGPENG WANG,Yujia Zhong,Lifei Sun,Benjamin Vincent,Ivan Chakarov,Joseph Ervin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Direct Evidence of Oxygen Vacancy Generation in Whole Gate Stacks Through Multiple Electrical and Atomic-Scale Physical Methods as the Cause of Endurance Failure in FeFETs</div>
+            <div class="paper-author">Xianzhou Shao,Hao Xu,Saifei Dai,Fengbin Tian,Xiaoyu Ke,Jiahui Duan,Min Liao,Xinpei Jia,Xiaoqing Sun,Junshuai Chai,Jun Luo,Wenwu Wang,Xiaolei Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Novel Three-dimensional DRAM Cell Architectures with IGZO-channel and Key Technologies toward sub-10nm and Beyond</div>
+            <div class="paper-author">Wonsok Lee,Daewon Ha,Yongjin Lee,Sungwon Yoo,MIN HEE CHO,Kyongjun Yoo,Seung Min Lee,Seungwon Lee,Terai Masayuki,Tackhwi Lee,Jun Hyeon Bae,Kyeong ju Moon,Changhyuck Sung,Minji Hong,Dong Guk Cho,Kong-Soo Lee,SANGWOOK PARK,Kwangmin Park,BONG JIN KUH,Pilsang Yun,Sangjin Hyun,SU JIN AHN,Jaihyuk Song</div>
+        </div>
+    </details>
+   
+    <details>
+        <summary>Advanced Semiconductor (Logic) Devices</summary>
+        <div class="paper-block">
+            <div class="paper-title">Controllable Oxygen Vacancies in NbOx Mott Memristor for Tunable Spiking Neurons</div>
+            <div class="paper-author">Guolei Liu,Dingwei Li,Fanfan Li,Bowen Zhu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Circuit Polymorphism Enabled by RFET Devices Processed on Industrial FDSOI</div>
+            <div class="paper-author">Niladri Bhattacharjee,Giulio Galderisi,Yuxuan He,Violetta Sessi,Maximilian Drescher,Viktor Havel,Michael Zier,Maik Simon,Kerstin Ruttloff,Annekathrin Zeun,Konstantin Li,Anna-Sophie Seidel,Carsten Metze,Michael Grothe,Soeren Jansen,Mark Wijvliet,Shubham Rai,Akash Kumar,Stefan Slesazeck,Jan Hoentschel,Thomas Mikolajick,Jens Trommer</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Boosting Mobility of Oxide TFTs via PVD and ALD Hybrid Process</div>
+            <div class="paper-author">Yuhang Zhang,Xiao Li,Shengjie Yang,Huan Yang,Tengyan Huang,Xinwei Wang,Lei Lu,Shengdong Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Oxide-based Optical Synapses with Low Consumption for In-Sensor Reservoir Computing</div>
+            <div class="paper-author">Jingyi Zhou,Biyi Jiang,Huansong Tang,Zhen Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Investigation of Passivation Layers for Self-aligned Top-Gate Amorphous InGaZnO Thin-Film Transistors with Metal-Reacted Low-Resistance Source/Drain</div>
+            <div class="paper-author">Yuhan Zhang,Jiye Li,Hao Pen,Huan Yang,Lei Lu,Shengdong Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Direct Backside Contact Impact on  3-dimensional Stacked FET SRAM Beyond 1nm Node</div>
+            <div class="paper-author">Mingyu Kim,Jaehyun Park,Sungil Park,Kyunghwan Lee,Deuk Ho Yeon,Daewon Ha,Hyungcheol Shin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High-performance InSnO/ZnO heterojunction transistors and inverters</div>
+            <div class="paper-author">dengqin xu,tingzhen Yi,junchen dong,lifeng liu,dedong han,xing Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High Mobility and Improved Subthreshold Characteristics of Ultra-Thin Channel IGZTO TFTs Down to 3 nm</div>
+            <div class="paper-author">Kai Chen,Yi Jiang,Zhaolong He,Rui Zhang,Junkang Li,Yunlong Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Demonstration of EOT-Scaled Lg~25 nm FinFET based on Thickness-Proportion Controlled HfO2-ZrO2-HfO2 Superlattice Gate Stacks</div>
+            <div class="paper-author">Kun Zhong,Zhaohao Zhang,Huaxiang Yin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Van der Waals Dielectrics and Electrodes in 2D Transistors for 2T0C DRAM</div>
+            <div class="paper-author">Jianmiao Guo,Ziyuan Lin,Cong Wang,Tianqing Wan,Jianmin Yan,Yang Chai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Investigation of Cryogenic Ultra-Low VTH MOSFETs and  BEOL for Power Efficiency Enhancement</div>
+            <div class="paper-author">Yuanke ZHANG,Yuefeng Chen,Hengxu Guo,Jun Xu,Guoping Guo,Chao Luo</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">First Demonstration of Tunnel FET-based Physical Unclonable Function with Independent Entropy Source through Ambipolar Current Modulation</div>
+            <div class="paper-author">Kaifeng Wang,Yingxi Zhou,Rundong Jia,Hongyan Han,Weihai Bu,Qianqian Huang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Vertical Channel Gate-all-around(VCG) CMOS Transistors with MBE in-situ Doping Channel and TiN/HfO2 Gate Stacks</div>
+            <div class="paper-author">Ran Bi,Haoran Zhao,Mingmin Shi,Jianhuan Wang,Jianjun Zhang,Xiaoyan Xu,Xia An,Heng Wu,Ru Huang,Ming Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">The ultra-thin Al2O3 oxide layer via ALD repaired Si Channel interface and optimizied subthreshold characteristics and reduced leakage current by 96.2%</div>
+            <div class="paper-author">Jiang Renjie,wang peng,li lianlian,li qinkun,yang kun,Huaxiang Yin,zhang qingzhu</div>
+        </div>
+        <div class="paper-block">
+            <div class="paper-title">Laser-Induced Low Temperature Dopant Segregation Schottky Barrier MOSFET for Monolithic-3D</div>
+            <div class="paper-author">Feixiong Wang,Yadong Zhang,Jinbiao Liu,Yunjiao Bao,Zhiyao Wang,Shuang Liu,Mingzheng Ding,Zhaohao Zhang,Qingzhu Zhang,Huaxiang Yin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optimizing ALD-deposited IGZO TFT Thermal Stability through Compositional Adjustments</div>
+            <div class="paper-author">Jianting Wu,Huajian Zheng,Min Guo,Yi Huang,xiaoci liang,Qian Wu,Chuan Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dual Functionality of MoS2 in nFET and pFET through Contact Metal Selection</div>
+            <div class="paper-author">Kwok Ho WONG,Mansun CHAN</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Categorization of Stacking Faults and Their Effects on I-V Characteristics in 2nm p-Type GAA Nanosheet Transistors</div>
+            <div class="paper-author">Seungjoon Eom,Sanguk Lee,Rockhyun Baek</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Consideration of VFET for Ultimate Logic Scaling: A Design Perspective</div>
+            <div class="paper-author">Yimeng Wang,Yanbang Chu,Ziqiao Xu,Yu Liu,Rui Guo,Jiacheng Sun,Wanyue Peng,Haoran Lu,Ming Li,Runsheng Wang,Heng Wu,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhanced Thermal Stability of Ru Interconnects Using h-BN As Barrier Layers</div>
+            <div class="paper-author">Zhuming Wang,Chen Wang,Kun Chen,Wei Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Thermal Crosstalk Analysis in Advanced CMOS Circuits:  Insights from 3nm Gate-All-Around Transistor Technology</div>
+            <div class="paper-author">Sihao Chen,Honglin Wu,Runsheng Wang,Ru Huang,Lining Zhang</div>
+        </div>
+    
+    </details>
+
+    <details>
+        <summary>Advanced Semiconductor (Logic) Devices (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Monolithic 3D Integration of 2D Devices</div>
+            <div class="paper-author">Saptarshi Das</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Recent Progress on Electronics and Optoelectronics Based on 2D Tellurium</div>
+            <div class="paper-author">Chaoliang Tan,Jiajia Zha,Haoxin Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multimode Transistors based on Ion-dynamic Capacitance</div>
+            <div class="paper-author">xiaoci liang,Yiyang Luo,Yanli Pei,Mengye Wang,Chuan Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">From Flip FET to Flip 3D Integration (F3D): Maximizing the Scaling Potential of Wafer Both Sides Beyond Conventional 3D Integration</div>
+            <div class="paper-author">Heng Wu,Haoran Lu,Wanyue Peng,Ziqiao Xu,Yanbang Chu,Jiacheng Sun,Falong Zhou,Jack Wu,Lijie Zhang,Weihai Bu,Jin Kang,Ming Li,Yibo Lin,Runsheng Wang,Xin Zhang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High density 3D integration of 2D transistors via van der Waals lamination</div>
+            <div class="paper-author">Yuan Liu,Donglin Lu,Quanyang Tao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Leveraging Mature Chip Manufacturing Techniques for Innovative Technology Developmen</div>
+            <div class="paper-author">Yunlong Li,Kai Xu,Dianyu Qi,Yishu Zhang,Ran Tao,Yongyu Wu,Dawei Gao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Impact of Charge Trapping at Defects on the Robustness of Electronic Circuits</div>
+            <div class="paper-author">Michael Waltl,Bernhard Stampfer,Roberto Orio</div>
+        </div>
+    </details>
+   
+    <details>
+        <summary>Memory Technologies</summary>
+        <div class="paper-block">
+            <div class="paper-title">Optimizing SiN Composition for Enhanced Charge-Trapping in Next-Generation 3D NAND Flash Memories</div>
+            <div class="paper-author">Tomoya Nagahashi,Hajime Karasawa,Ryota Horiike,Atsushi Oshiyama,Kenji Shiraishi</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A 2T2R TCAM Based on RRAM and Accurate Compact Model for A Kilobit Word Length</div>
+            <div class="paper-author">Wang Zhen,Li Pengtao,Wang Zijian,Xuemeng Fan,Xing Shengpeng,Zhang Yishu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Structure design and characteristics of 3T sense-switch pFlash for computing-in-memory</div>
+            <div class="paper-author">Wei Zhao,Jinghe Wei,Guozhu Liu,Yidan Wei,Yingqiang Wei,Zhiyuan Sui,Meijie Liu,Qi Xi,Xinhe Wang,Zongguang Yu,Juyan Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Comprehensive Analysis of Oxidant Effects during ALD Process of Hf0.5Zr0.5O2 Ferroelectric Thin Films</div>
+            <div class="paper-author">Xiaopeng Li,Yilin Hou,Xiaoyu Dou,Yaoyu He,Yuwei Qu,Pengpeng Sang,Xuepeng Zhan,Xiaolei Wang,Jixuan Wu,Jiezhi Chen</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Self-Rectifying Memristors with High Rectification Ratio for Security Primitives with Ultra-low bit-errors</div>
+            <div class="paper-author">Guobin Zhang,Zijian Wang,Xuemeng Fan,Dawei Gao,Yishu Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Improving the Reliability of 40nm RRAM Chip by Pre-cycle Operation</div>
+            <div class="paper-author">Ruofei Hu,Yilong Huang,Chengxiang Ma,Qianze Zheng,Kaimeng Liu,Yuelin Jiang,Siyu Chen,Jianshi Tang,Dong Wu,Bin Gao,He Qian,Huaqiang Wu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enabling Highly-Efficient, Low-Latency Analog CAM Operations with Optimized MoS2 Flash Memory Devices</div>
+            <div class="paper-author">Guoyun Gao,Bo WEN,Ni Yang,Zhiyuan Du,Mingrui Jiang,Ruibin Mao,Yingnan Cao,Hongxia Xue,Pak San Yip,Qihan Liu,Dong-Keun Ki,Hao Jiang,Jinyao Tang,Paddy K. L. Chan,Han Wang,Lain-Jong Li,Can Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">An Artificial Thermoresponsive Nociceptor Based on Amorphous Carbon Threshold Memristor</div>
+            <div class="paper-author">Qiaoling Tian,Xiaoning Zhao,Zhongqiang Wang,Haiyang Xu,Yichun Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">4.6-bits-per-cell Resistive Probabilistic-bit Computing for High-efficient Evaluation  of Bio-Genomic Evolution Achieving 6.25x Acceleration of Data-operations </div>
+            <div class="paper-author">Kai-Wen Cheng,___ 雓</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">GeTe9 Ovonic Threshold Switch Memristor-centered 1S1T1R cell  as Bio-realistic Stochastic Synapse</div>
+            <div class="paper-author">Xinyu Wen,Kuan Wang,Lun Wang,Qi Chen,Hao Tong,Xiangshui Miao,Yuhui He</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title"> Chirality Reversal Related Spin-Orbit Torque Switching in Nanoscale Perpendicular Ferromagnet </div>
+            <div class="paper-author">Xue Zhang,Zhengde Xu,Zhifeng Zhu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Endurance Optimization of 40nm RRAM towards 10^6 cycles by  Tuning the Stoichiometry of TiN Bottom Electrode</div>
+            <div class="paper-author">Chengxiang Ma,Qianze Zheng,Ruofei Hu,Yilong Huang,Kaimeng Liu,Yuelin Jiang,Siyu Chen,Jianshi Tang,Dong Wu,Bin Gao,He Qian,Huaqiang Wu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Physical Unclonable Function in Spiking Neural Network Based on In-Te Ovonic Threshold Switching Devices</div>
+            <div class="paper-author">Ming Xu,Huan Wang,Qihang Zhu,Hengyi Hu,Yi Li,Xiangshui Miao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Rapid and Extensive Conductance Modulation in MoOx based Electrochemical Random-Access Memory for Spiking Neuromorphic Systems</div>
+            <div class="paper-author">xiaoci liang,Dongyue Su,Younian Tang,Bin Xi,Chunzhen Yang,Huixin Xiu,Jialiang Wang,Chuan Liu,Mengye Wang,Yang Chai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Comprehensive Investigation of the Disturb and Retention Issues in Scaled FeNAND Arrays</div>
+            <div class="paper-author">Yuejia Zhou,Kechao Tang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Demonstration of Reliable Magnetic Shift Register Reading Using 50 nm MTJs on CMOS IC towards 3D Ultra-High Density Memory</div>
+            <div class="paper-author">Susumu Hashimoto,Nobuyuki Umetsu,Yasuaki Ootera,Jun Iwata,Michael Quinsat,Yoshihiro Ueda,Naoharu Shimomura,Hiroki Tokuhira,Shinji Miyano,Masatoshi Yoshikawa,Tsuyoshi Kondo,Masumi Saitoh,Masaki Kado</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enabling Artificial Spiking Sensory Neurons with a Single Flexible VO2 Mott Memristor for Neuromorphic Sensing</div>
+            <div class="paper-author">Chuanyu Han,Shujing Zhao,Shengli Fang,Shi Quan Fan,Weihua Liu,Xin Li,Li Geng</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Thermal Stability of TiO2 Channel FE-VNAND: From Fabrication to High-Temperature Operation</div>
+            <div class="paper-author">Xujin Song,Dijiang Sun,Xiaoyan Liu,Jinfeng Kang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">BEOL-Compatible Photosensors by Atomic-Layer-Deposited ZnO Semiconductor Transistors and Their Monolithic 3D Integration</div>
+            <div class="paper-author">Yuyan Fan,Ziheng Wang,Yulong Dong,Zhiyu Lin,Danyang Chen,Shiyi Zhang,Jingquan Liu,Mengwei Si,Xiuyan Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optimizing Etch Processes for Enhanced Yield and Performance in SOT-MRAM Devices on 300 mm Wafers</div>
+            <div class="paper-author">Enlong Liu,Guoxiu Qiu,Dandan Yang,Kaiyuan Zhou,Qingxiu Li,Qijun Guo,Shikun He,ZHENGHUI JI,Wenlong Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Data Retention in co-doped HZO FeCAPs: Roles of FE Thickness and Thermal Budget</div>
+            <div class="paper-author">Justine BARBOT,Markus Peller,Isaac Emanuel Robert,Kerstin Bernert,Hannes Maehne,Steffen Thiem,David Lehninger,Ayse S羹nb羹l,Konrad Seidel,Thomas K瓣mpfe</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A novel transistor free design of SOT-MRAM written by unipolar current with record bit cell size (15F2) </div>
+            <div class="paper-author">Meiyin Yang,Lei Zhao,Bowen Yang,Bowen Shen,Yanru Li,Peiyue Yu,Jianfeng Gao,Ruipeng Shi,Zhuangzhuang Ye,Shuo Xu,Yan Cui,Xiaolei Yang,Ming Wang,Shikun He,Jun Luo</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Wavelength-dependent reconfigurable photo memory enabled by organic-gated transistor</div>
+            <div class="paper-author">Xiaokun GUO,Yaoqiang ZHOU,Jianbin Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Low-Voltage Multi-Level Flash Memory Based on Intra-Float-Gate Charge Transfer</div>
+            <div class="paper-author">Yifan Chen,Qing Wang,Zongwei Shang,Mingmin Shi,Xijun Zhou,Xiaoyan Xu,Xia An,Ru Huang,Ming Li,Haixia Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optimization of RRAM Read Performance and Area Efficiency: A Large-Scale and Low-Parasitic Array with Novel Interconnection Schemes</div>
+            <div class="paper-author">Shengyu Bao,Yuhang Yang,Zongwei Wang,Linbo Shan,Qishen Wang,Yimao Cai,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhanced Threshold Switching Devices based on Conductive Filaments in SiOx through Vertically Aligned MoS2 Layers</div>
+            <div class="paper-author">Jimin Lee,Sofia Cruces,Dennis Braun,Lukas V繹lkel,Ke Ran,Joachim Mayer,Alwin Daus,Max C. Lemme</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Comparative Analysis of Direct Leakage Current Compensation and Positive-Up-Negative-Down in the Characterization of Leaky Ferroelectric Structures</div>
+            <div class="paper-author">Tiang Teck Tan,Tian-Li Wu,Laurent Grenouillet,Paolo La Torraca,Andrea Padovani,Kin Leong Pey,Hsien-Yang Liu,Chen-Yu Yu,Francesco Puglisi,Nagarajan Raghavan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Characterization of a 1T-Floating Body DRAM Cell in Bulk Silicon MOSFETs for Cryogenic Memory Applications</div>
+            <div class="paper-author">Hengxu Guo,Yuanke ZHANG,Yuefeng Chen,Haoyu Sheng,Chi Fang,Guoping Guo,Chao Luo</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Unveiling the Role of Oxygen Vacancy Inhomogeneity in Enhancing the Reliability of Ferroelectric HfO_/ZrO_ Superlattice Structures</div>
+            <div class="paper-author">Boyao 撏,Maokun Wu,Sheng Ye,Xuepei Wang,Yuchun Li,Yishan Wu,Yichen Wen,Jinhao Liu,Zhigang Ji,Hongliang Lu,David Wei Zhang,Runsheng Wang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Energy Efficient Ground Enhanced Scheme for Large-Scale SOT-MRAM Arrays</div>
+            <div class="paper-author">Haoran Du,Shuyu Wang,Bo Liu,Wen Wang,Hao Cai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A High-Throughput Parasitic TRNG in Self-Rectifying Memristor based CIM for Edge Secure Computing</div>
+            <div class="paper-author">Yingjie Yu,Shengguang Ren,Yuyang Fu,Jiancong Li,Puyi Zhang,Yi Li,Xiangshui Miao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Low-programming-variation and High-Yield 2-bit Programmable 1-Kb Self-Rectifying Memristor Crossbar Array</div>
+            <div class="paper-author">Jiayi Sun,Shengguang Ren,Hengfeng Zhang,Zhili Cui,Yibai Xue,Yu Zhang,Wenbin Zuo,Yi Li,Xiangshui Miao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Scalable in-memory Walsh-Hadamard Transform for image compression</div>
+            <div class="paper-author">Jing Tian,Huai-Zhi Pei,Jian-Cong Li,Xiao-Di Huang,Yi Li,Xiang-Shui Miao,Yi-Bai Xue</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">4F2/bit Memristive Multi-bit Content Addressable Memory Enabled by Nonlinear Encoding for In-Memory Similarity Search</div>
+            <div class="paper-author">Tong Hu,Yibai Xue,Yingjie Yu,Wenbin Zuo,Jiancong Li,Yi Li,Xiangshui Miao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High Endurance Nanoscale TiN Bottom Heater for Phase Change Memory</div>
+            <div class="paper-author">ziqi wan,Wencheng Fang,Li Xie,Xi Li,Ruobing Wang,Zhitang Song,Xilin Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Effect of pulse schemes on multi-level switching and short-term instability in 1T1R configuration</div>
+            <div class="paper-author">Xiaohua Liu,Felix C羹ppers,Dennis Nielinger,Susanne Hoffmann-Eifert,Rainer Waser,Stefan Wiefels</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Comprehensive Modeling of Ferroelectric Tunnel Junctions: Variability Analysis and Device Design</div>
+            <div class="paper-author">Jiajun Qiu,Ning Ji,Hao Li,Ning Feng,Runsheng Wang,Ru Huang,Lining Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">An RRAM-based Multi-Mode and Pipelined Pooling Scheme in Computing-in-Memory for Convolutional Neural Networks</div>
+            <div class="paper-author">Yi Gao,Yimao Cai,Ru Huang,Zongwei Wang,Lin Bao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Temperature Dependent Back-hopping in Spin Transfer Torque Switching of  Perpendicular Magnetic Tunnel Junctions</div>
+            <div class="paper-author">Yapeng Zhao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Selective-Ferroelectricity-Defining Method Utilizing Directional Oxygen Plasma Treatment for Optimizations of Hf0.5Zr0.5O2-based Memory Devices</div>
+            <div class="paper-author">Yi Ding,Mingcheng Shi,Yuyan Wang,Bowen Shen,Wen Sun,Benjamin Yang,Yanbo Su,Huanan Liu,Jian Yuan,Jianshi Tang,Bin Gao,He Qian,Huaqiang Wu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhanced Performance of P-FeFETs with TiN:2.5nm/Mo/TiN Gate Stacks for 3-bit-per-cell Operation, 3.5V Read-after-Write, and High Endurance (10_ Cycles) in Compute-in-Memory Applications</div>
+            <div class="paper-author">Cheng-Yen TSAI</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enabling Broader Memory Windows by Double-Gate Nanosheet Ferroelectric FETs for Next-Generation Non-Volatile Storage</div>
+            <div class="paper-author">Fang Wu,Jun-Yong Chiu,Tsung-Ying Lin,Cheng-Hung Wu,Vita Pi-Ho Hu,Pin Su,Chun-Jung SU</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">The Demonstration of Scalable-HZO/ZrO2 FeFET with Large Memory Window of 2.3V for 3bit-per-cell, Immediate Read after Write, High Endurance of 109 cycles, and The High Accuracy of 92% for Machine Learning. </div>
+            <div class="paper-author">Huang sheng tsang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Novel Superlattice HfO2-ZrO2 Ferroelectric Tunnel FET for Overall Improvement in Memory Window, EOT and Disturb Immunity</div>
+            <div class="paper-author">Shaodi Xu,Zhiyuan Fu,Shengjie Cao,Yue Yu,Hao Zheng,Qianqian Huang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Toward Low-Thermal-Budget Processing and Low-Voltage Operating in Ferroelectric Stack Films by Introducing ZrO2 Middle Layer</div>
+            <div class="paper-author">Yinchi Liu,Hao Zhang,Jining Yang,Xun Lu,Shiyu Li,Yeye Guo,Chunlei Wu,Handong Zhu,Xuning Zhang,Zhenxin Wang,Yaoyi Wang,Ruli Zeng,Yiwen Yu,Wenjun Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Ag:SiOx-based Volatile Memristors for Dendritic Computations</div>
+            <div class="paper-author">Ruiqi Chen,Xiaoyan Liu,Yulin Feng,Nan Tang,Yiyang Chen,Hao Ai,Haozhang Yang,Zheng Zhou,Lifeng Liu,Jinfeng Kang,Peng Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Synergetic effect of doping and oxygen vacancies to realize higher permittivity and lower leakage for DRAM capacitors: A first-principles study</div>
+            <div class="paper-author">Ting Zhang,Maokun Wu,Miaojia Yuan,Yichen Wen,Yilin Hu,Pengpeng Ren,Sheng Ye,Runsheng Wang,Zhigang Ji,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Oxygen Vacancy-Zr Content Synergy for Morphotropic Phase Boundary Towards High-performance DRAM Applications</div>
+            <div class="paper-author">Jinhao Liu,Xuepei Wang,Maokun Wu,Boyao 撏,Yichen Wen,Yishan Wu,Sheng Ye,Pengpeng Ren,Runsheng Wang,Zhigang Ji,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Research on Oxidizer Engineering of ALD for Industrial Production of ZrO2 Capacitor in DRAM</div>
+            <div class="paper-author">Xinyi Tang,Songming Miao,Yuanbiao Li,Di Lu,Shibing Long,Guangwei Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Oxidation of TiN Interface and Improvement of AlN Intercalation of ZrO2 Capacitor in DRAM</div>
+            <div class="paper-author">Songming Miao,Xinyi Tang,Yuanbiao Li,Guangwei Xu,Di Lu,Shibing Long</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Memory Technologies (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Reliability Optimization in Hafnium Oxide Based Ferroelectric Field-effect Transistors (FeFETs)</div>
+            <div class="paper-author">Kechao Tang,Yuejia Zhou,Zhongxin Liang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Recent advances in on-chip learning with organic neuromorphic circuits</div>
+            <div class="paper-author">Yoeri van de Burgt</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Content Addressable Memory Hierarchies for Computing in Memory</div>
+            <div class="paper-author">Paul Manea,Nathan Leroux,John Paul Strachan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Integration of 2D Ultrafast Flash Memory: From Device to Chip</div>
+            <div class="paper-author">Zhenyuan Cao,Chunsen Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Hafnia-based XP-FeRAM: A Novel High-speed and Low-power Cross-point Ferroelectric Memory for Data-intensive Applications</div>
+            <div class="paper-author">Qianqian Huang,Shengjie Cao,Zhiyuan Fu,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High-Frequency Capacitance Measurement Techniques and Their Applications in Memory Technology Development</div>
+            <div class="paper-author">Jiang Qian,Dan Lv,Lu Wang,Ruiqi Ma,Shuai Kong,Shan-Ting Zhang,Dongdong Li,Liang Zhao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Nanorods-based Memristors : Advancing Bio-inspired System and Neuromorphic Computing</div>
+            <div class="paper-author">Jung Ho Yoon,Ji Eun Kim,Suk Yeop Chun,Keunho Soh</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">An Efficient Pipeline Programming Scheme Based on 40nm PCM Compute-in-Memory Chip for CNNs</div>
+            <div class="paper-author">Xile Wang,Longhao Yan,Xi Li,Yaoyu Tao,Zhitang Song,Yuchao Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High Density and High Reliability (H2DR) RRAM for Advanced Memory  Technology</div>
+            <div class="paper-author">Zongwei Wang,Zimeng Wu,Lin Bao,Qishen Wang,Yuhang Yang,Shengyu Bao,Jingwei Sun,Cuimei Wang,Yimao Cai,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">HfO2-Based Ferroelectric Field-Effect Transistors for Next-Generation Storage and In-Memory Computing Applications</div>
+            <div class="paper-author">Genquan Han,Chengji Jin,Jiajia Chen,Xiao Yu,Jiuren Zhou,Siying Zheng,Haoji Qian,Ran Cheng,Bing Chen,Yan Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Reconfigurable magnonic devices for spin-wave manipulation on the nanoscale</div>
+            <div class="paper-author">Huajun Qin</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Photonics, Imaging and Display</summary>
+        <div class="paper-block">
+            <div class="paper-title">Erbium-doped Aluminium Oxide based Distributed Feedback Waveguide Laser in Thin Film Lithium Niobate Platform</div>
+            <div class="paper-author">Zhekang Zhang,Ruqi Wang,Renfei kuang,Xifa Liang,Shijie Liang,Qingming Chen</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Ultrafast Photoresponse of Vertical Diodes Utilizing WSe2/ITO Schottky Junctions</div>
+            <div class="paper-author">Xixi Jiang,Jingli Wang,Shukui Zhang,Qingqing Sun,Jiewei Chen,Yang Chai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Selective-Attention Neuromorphic Vision Classifications Based on 帢-In2Se3/Bi2O2Se Ferroelectric-Semiconductor Heterotransistors</div>
+            <div class="paper-author">Xinrui Guo,Yu Zhu,Shuo Liu,Junling Liu,Ru Huang,Ming He</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Novel High-Efficiency Large-Area Optical-to-Optical Conversion Integrated Device for Optical Signal Processing</div>
+            <div class="paper-author">Yahui Su,Shanjing Liu,Peixuan Song,Peiran Du,Hui Wang,Juan Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Van der Waals Interfacial Engineering for High-Performance Macroscopic Assembled Graphene (MAG)-Silicon Schottky Photodiodes</div>
+            <div class="paper-author">Srikrishna Chanakya Bodepudi,Muhammad Abid Anwar,Muhammad Malik,Xiaolei Ding,Yance Chen,Yue Dai,Zongwen Li,Zhi-Xiang Zhang,Yunfei Xie,Wenzhang Fang,Huan Hu,Bin Yu,Yang Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optoelectronic Multiplication Emulator  Based on FPGA</div>
+            <div class="paper-author">Jinxian Li,Runyu Hu,Jiabin Shen,Zengguang Cheng,Peng Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Perovskite based Artificial Vision System for Geometric Shape Recognition</div>
+            <div class="paper-author">Shivam Kumar,Swapnadeep Poddar,Zhenghao Long,Zhiyong Fan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Reconfigurable and nonvolatile graphene photodetector integrated onto photonic crystal waveguide</div>
+            <div class="paper-author">Ruijuan Tian,Yu Zhang,Zhipei Sun,Xuetao Gan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Back-End-of-Line Integration of Organic Thin-Film Transistor Active-Matrix on  III-V Micro-LED Array for Video-Rate High-Resolution Displays</div>
+            <div class="paper-author">Rongrong Shi,Simon Dominic Ogier,Jun Li,Wei Tang,Li'ang Deng,Siying Li,Xiaojun Gu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High-Performance Broadband (300-1600 nm) Si-Based Photodetector Enabled by 2.5D Out-of-Plane Architecture Metasurface Enhancement</div>
+            <div class="paper-author">Yang Xu,yunfei Xie,Jing He,Zongwen Li,Zhi-Xiang Zhang,xiaochen Wang,Feng Tian,Qianqian Zhang,Srikrishna Chanakya Bodepudi,yuan ma,zijian Pan,Muhammad Abid Anwar,Bin Yu,liaoyong wen</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Monolithic Integration of GaN 弮LED and Normally-off p-GaN HEMT by Flip Chip Bonding</div>
+            <div class="paper-author">Jinxia Jiang,Ang Li,Guohao Yu,Han Yue,Zhongming Zeng,Baoshun Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Modeling Multi-Junction Tandem Solar Cell with High Bifacial Gain </div>
+            <div class="paper-author">Mohammad Ajmain Fatin,Arpan Saha,Md. Shahriar,Mainul Hossain</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Pixelated Germanium-on-Silicon Photodetector with High Responsivity for Short Wavelength Infrared Imaging</div>
+            <div class="paper-author">Zhou Zhou,Chao Gao,Xin Jin,Xiaolin Liu,Kai Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optoelectronic Switching Memory Device based on WO3 Semiconductor Film enables High-efficiency in-sensing Reservoir Computing for Speech Recognition </div>
+            <div class="paper-author">Li Xun,Li Jie,Xiang Ke,Xu Wenyang,Xu Yu,Gu Dengshun,Zhou Guangdong</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optoelectronic Artificial Synaptic Device Based on Graphene-AlGaN van der Waals Junction</div>
+            <div class="paper-author">Yang Chen,Yuanyuan Yue,Bingchen Lv,Jin Zhang,Xiaoyu Wei,Xiaojuan Sun,Dabing Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Photoresponse improvement in the near-infrared region of organic photodetectors by introducing a trap layer</div>
+            <div class="paper-author">Fangchen Zhu,Yang WANG</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Graphene/Silicon Pixel Array with Integrated Imaging and Readout System</div>
+            <div class="paper-author">Yuan Ma,Zongwen Li,Youshui He,Qianqian Zhang,Yunfei Xie,Zhi-Xiang Zhang,Feng Tian,Muhammad Abid Anwar,Muhammad Malik,Srikrishna Chanakya Bodepudi,Bin Yu,Yuda Zhao,Yang Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A 512_256 TFT-based image array sensor with high sensitivity, high frame rate and wide dynamic range for industrial soft X-ray detection</div>
+            <div class="paper-author">Weikang Yan,Haorong Xie,Xianming Li,Chao Gao,Qi Liu,Song Kang,Jun Chen,Kai Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Miniature Optical Fiber Fabry__矇rot Interferometric Acoustic Sensor with 3D Micro-Printed Ortho-Planar Springs</div>
+            <div class="paper-author">Shangming Liu,Peng Wang,Taige Li,A. Ping Zhang</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Photonics, Imaging and Display (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Van der Waals infrared photon detectors for standard blackbody characterization</div>
+            <div class="paper-author">Yang Wang,Weida Hu,Peng Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Precise transmission matrix measurement of  a multimode fiber and its applications</div>
+            <div class="paper-author">Yi Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Single Photon Devices Using Layered Materials</div>
+            <div class="paper-author">Mayank Chhaperwal,Nithin Abraham,Kausik Majumdar</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Novel GaN Integrated Photonics For Advanced Optical Communication and Imaging </div>
+            <div class="paper-author">Muhammad Hunain Memon,Huabin Yu,Haochen Zhang,Haiding Sun</div>
+        </div>
+    
+    </details>
+
+
+
+    <details>
+        <summary>Wide-Bandgap Power and RF Devices</summary>
+
+
+    <div class="paper-block">
+        <div class="paper-title">Improved Ohmic Contact Resistance and DC Performance of InAlN/GaN HEMTs with Si-incorporated Contact Scheme</div>
+        <div class="paper-author">Yang Jiang,Fangzhou Du,Xinyi Tang,Ziyang Wang,Kangyao Wen,Zhongrui Wang,Qing Wang,Hongyu Yu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">975V/4.3m峏繚cm2 Enhancement-mode (001) 帣-Ga2O3 Vertical Multi-fin Power Transistors</div>
+        <div class="paper-author">Gaofu Guo,Xiaodong Zhang,Chunhong Zeng,Tiwei Chen,Zhili Zou,Zheyuan Hu,Zhucheng Li,Dengrui Zhao,Yuhua Sun,Xianqi Dai,Baoshun Zhang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">An Atomic Layer Etching Technique for MOCVD in-situ SiNx</div>
+        <div class="paper-author">Fangzhou Du,Yang Jiang,Ziyang Wang,Xinyi Tang,Qing Wang,Hongyu Yu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">High-performance Cu2O/Ga2O3 Heterojunction Diodes for Power Electronics</div>
+        <div class="paper-author">Xiaohui Wang,Mujun Li,Minghao He,Chun-Zhang Chen,Haozhe Yu,Long Chen,Qing Wang,Hongyu Yu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Effect of Gate Voltage Rise Time on Gate Charges for GaN HEMTs with Partially Depleted p-GaN Cap Layer</div>
+        <div class="paper-author">Ruize Sun,Renjie Wu,Yunfei Ma,Wenhan Yuan,Qinan Guo,Wanjun Chen,Bo Zhang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">9-kV p-GaN Gate HEMT with Gate Termination Extension Demonstrated on Sapphire Substrate for Improved Breakdown Voltage</div>
+        <div class="paper-author">jingjing yu,Junjie Yang,Jiawei Cui,Hao Chang,Sihang Liu,Yunhong Lao,Xuelin Yang,Xiaosen Liu,Jin Wei,Maojun Wang,Bo Shen</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">20 nm Gate-Length Normally-Off AlGaN/GaN HEMTs Enabled by SiNx Stress-Engineered Technique</div>
+        <div class="paper-author">Chen Deng,Qing W,Hongyu Yu,Peiran Wang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">RESURF Ga2O3-on-SiC Field Effect Transistors for Enhanced Breakdown Voltage</div>
+        <div class="paper-author">Junting Chen,Junlei Zhao,Xiaohan Zhang,Jin Wei,Mengyuan Hua</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Reverse Blocking GaN on SiC HEMTs with Ultralow Dynamic RON  for 1200 V Power Applications</div>
+        <div class="paper-author">Yutong Fan,Mengqiang Yuan,Yuqing Hu,Weihang Zhang,Yachao Zhang,Zhihong Liu,Yue Hao,Jincheng Zhang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Dr.</div>
+        <div class="paper-author">Xin Wang,Hongyue Wang,Chen Wang,Jiayin He,Ju Gao,Bin Zhang,Ziheng Liu,Hongjie Peng,Chengkang Ao,Jiahui Yuan,Jinyan Wang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Dynamic Performance Analysis of Ultra-fast Inverter based on Tri-gate AlGaN/GaN MIS-HEMTs</div>
+        <div class="paper-author">Yunsong Xu,Weisheng Wang,Dechang Quan,Haotian Ji,Shenlei Ding,Yunzhou Jiang,Kain Lu Low,Jiangmin Gu,Wen Liu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Deeply Scaled Gate Field Plate to Suppress Drain-Induced Dynamic Threshold Voltage Instability in Schottky-Type p-GaN Gate HEMT</div>
+        <div class="paper-author">Chen Wang,Xin Wang,Junjie Yang,Hongjie Peng,Wenbo Xia,Jiayin He,Ju Gao,Chengkang Ao,Ziheng Liu,Jin Wei,Jinyan Wang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Enhancing Heat Dissipation in GaN-on-Diamond HEMTs through Device-First Transfer Bonding</div>
+        <div class="paper-author">Shiming Li,Mei Wu,Xiaohan He,Haolun Sun,Ling Yang,Xiaohua Ma,Yue Hao</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Development of an on-Chip Millimeter-Wave Antenna</div>
+        <div class="paper-author">Ziqi Mei,Chao Liang,Enze Zhou,Yan Zhang,Ji Li,Rongbo Xie,Bingbai Li,Xiayu Wang,Chi Zhang,Rui You,Xiaoguang Zhao</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Investigation of Enhanced Robustness Against Floating-Substrate-Induced Dynamic RON Degradation in 900-V p-GaN Gate HEMT Using Virtual-Body Technology</div>
+        <div class="paper-author">Hao Chang,junjie yang,Jingjing Yu,jiawei cui,youyi yin,han yang,xuelin yang,jinyan wang,maojun wang,bo shen,jin wei</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Efficiency Analysis of Large-Area 帣-Ga2O3 Schottky Barrier Diodes  for DC-DC Converter</div>
+        <div class="paper-author">Yuru Lai,Chenxi Li,Shengliang Cheng,Huaxing Jiang,Leidang Zhou,Zimin Chen,Yanli Pei,Gang Wang,Xing Lu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Demonstration of a 3D-Folded 2DEG-Channel Structure  with Regrown AlGaN/GaN Heterostructures</div>
+        <div class="paper-author">Fuqiang Guo,Sen Huang,xingyu fu,xuelin yang,qimeng jiang,xinguo gao,shuaiyu chen,ning tang,bo shen</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Improved linearity by Double-Channel GaN HEMTs with the ultra-thin AlN barrier layer</div>
+        <div class="paper-author">long Zhang,qian Yu,ling Yang,meng Zhang,Chunzhou Shi,xu Zou,Wenze Gao</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Optimization of Scaling-Down Performance in Sub-100 nm AlGaN/GaN HFETs Based on Electron velocity modulation</div>
+        <div class="paper-author">Wang Mingyan,Yuanjie Lv,Heng Zhou,Chao Liu,Peng Cui,Zhaojun Lin,Sen Huang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">GIT-Based Bipolar p-FET with Enhanced Conduction Capability on E-mode GaN-on-Si HEMT Platform</div>
+        <div class="paper-author">Chengcai Wang,Jinjin Tang,Junting Chen,Mengyuan Hua</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">93.6 cm2 V-1繚s-1 Homostructure a-IGZO Thin-Film Transistor with High-k Gate Dielectric Fabricated at Room Temperature</div>
+        <div class="paper-author">Heng Yue Gong,Jia Cheng Li,Yang Hui Xia,Ya Dong Zhou,Hui Xia Yang,Yuan Xiao Ma,Ye Liang Wang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Design and TCAD Simulation of a Surface Super-Junction Based GaN HEMT with Enhanced Breakdown Voltage</div>
+        <div class="paper-author">Fuqiang Guo,Zhongchen Ji,Qimeng Jiang,Xinhua Wang,Ke Wei,Xinyu Liu,Jiayi An,Sen Huang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Effect of fin dimensions on the performance of GaN-on-Si Fin-HEMTs</div>
+        <div class="paper-author">Mengdi Li,Jiejie Zhu,Lingjie Qin,Bowen Zhang,Yuxi Zhou,Mingchen Zhang,Yichong Ding,Yuchen Qian,Xiaohua Ma,Yue Hao</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Temperature-dependent Characteristics of Field-Effect Mobility in MOCVD-Grown 帣-Ga2O3 MOSFETs on Sapphire Substrate</div>
+        <div class="paper-author">zheng jun,liu chenyu,hu haodong,liu yan,jia xiaole,wang yibo,wu yiyang,li bochang,yu chunxiao,fang cizhe,hao yue,han genquan</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">High Performance 4H-SiC DSRD With 1.4kV peak voltage ,400ps risetime and 1-MHz Continuous Repetition-rate</div>
+        <div class="paper-author">Yu Zhou,jingkai Guo,Dengyao Guo,Fengyu Du,Lejia Sun,Xiaoyan Tang,qingwen song,Yuming Zhang</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">S-band Internally Matched GaN Power Amplifiers</div>
+        <div class="paper-author">Li Zhang,Xuefeng Zheng,Zheng Chen,Changcheng Zhang,Zhida Wu,Zhipeng Ren,Pengbo Du,Hanbin Qu</div>
+    </div>
+    </details>
+
+    <details>
+        <summary>Wide-Bandgap Power and RF Devices (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Technologies of GaN Power Integration and Modeling</div>
+            <div class="paper-author">Sheng Li,Yanfeng Ma,Ran Ye,Siyang Liu,Weifeng Sun</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">50 nm GaN HEMTs Technology with High Frequency, low Noise, and High JFoM</div>
+            <div class="paper-author">Changxin Mi,Zhe Cheng,Lian Zhang,Yun Zhang,Jiaheng He,Xuankun Wu,Shujie Xie</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Recent research on ultrawide bandgap semiconductor Ga2O3 and AlN</div>
+            <div class="paper-author">DAO HUA ZHANG,Xian-Hu ZHA,Rong-Jun ZHANG,Shuang LI,Yan LIU,Yu-Xi WAN</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Challenges in Accelerating Power SiC Device Commercialization </div>
+            <div class="paper-author">Victor Veliadis</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Engineered Substrates for 3D RF Front Ends</div>
+            <div class="paper-author">Luis Andia</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Fundamentals and Future Challenges of SiC Power Devices</div>
+            <div class="paper-author">TSUNENOBU KIMOTO,Mitsuaki Kaneko</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">4H-SiC semiconductor for EV and beyond </div>
+            <div class="paper-author">HOngchao LIU</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">The Atomic Layer Etching Technique with Low Damage  for p-GaN/AlGaN/GaN Structure</div>
+            <div class="paper-author">Xinyi Tang,Honghao Lu,Chun Fu,Chuying Tang,Fangzhou Du,Qing Wang,Hongyu Yu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Device Considerations for GaN Power Switching Transistors from Application and Reliability Perspectives</div>
+            <div class="paper-author">Zhikai Tang,Maik Peter Kaufmann,Sandeep Bahl,Chang Soo Suh,Jungwoo Joh,Dong Seup Lee,Tim Merkin,Jeffrey Morroni</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Heterointegrated Ga2O3-on-SiC RF MOSFETs</div>
+            <div class="paper-author">Jiandong Ye,Xinxin Yu,Wenhui Xu,Rui Shen,Bing Qiao,Zhonghui Li,XIN OU</div>
+        </div>
+    </details>
+
+
+    <details>
+        <summary>Modelling and Simulation</summary>
+        <div class="paper-block">
+            <div class="paper-title">Energy-Efficient Voltage-Induced Self-Regulated Precessional MRAM with Low Write Error Rate <10^_9</div>
+            <div class="paper-author">Stanislav Sin,Saeroonter Oh</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A 2-D Noise Model for CMOS Single Photon Avalanche Diodes</div>
+            <div class="paper-author">Wei Jiang,Jamal Deen,Xuanyu Qian</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Novel Mixed Collector Structure IGBT Operating at High Temperature</div>
+            <div class="paper-author">Changhao Wang,hang Xu,Jianbin Guo,xinru Chen,YaFen Yang,David wei Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Study of the Characteristics of GaN Substrate-Based MicroLEDs with Different Epitaxial Structures</div>
+            <div class="paper-author">Shan Huang,Yibo Liu,Feng Feng,Jingyang Zhang,Zichun Li,Man Hoi Wong,Zhaojun Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Investigation of Reliability and Optimization of Reprogram Process in 3D NAND Flash Memory Based on Physical Model</div>
+            <div class="paper-author">Jooyoung Lee,Jinil Yoo,Hyeongcheol Shin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A BSIM Compact Model of Two-Dimensional Semiconductor Field Effect Transistors </div>
+            <div class="paper-author">Jen-Hao Chen,Ahtisham Pampori,Chien-Ting Tung,Sayeef Salahuddin,Chenming Hu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Prediction of single particle output response  in the CTFET inverter based on deep learning algorithm</div>
+            <div class="paper-author">Chen Chong,Hongxia Liu,Zexi Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Modeling of the Switching Characteristics of Ag/HfO_-based Volatile Memristors</div>
+            <div class="paper-author">Qin Xie,Yikang Huo,Chunsheng Jiang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Characteristic Length of Transition-metal Dichalcogenides based  Complementary Field-effect Transistors</div>
+            <div class="paper-author">xianmao cao,Panpan Zhang,Yiting Wu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Compact Model for GIDL-assisted Erase Transients of 3D MONOS Charge-Trap NAND Flash Memories</div>
+            <div class="paper-author">Chang Hyeok Im,Sungju Kim,Hyungcheol Shin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Model-driven Design Technology Co-optimization (DTCO) with Multi-Objective Bayesian Algorithm for Advanced Technology</div>
+            <div class="paper-author">Baokang Peng,Guoyao Cheng,Runsheng Wang,Ru Huang,Mansun Chen,Lining Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Global Stress Analysis in Fin Patterned Si/SiGe Multilayer Nanosheets for Nanosheet-based CMOS Device Technology</div>
+            <div class="paper-author">IMTIYAZ AHMAD KHAN,KUNAL .,HARSH RAJU,Sanjeev Kumar Manhas,AMIT KUMAR SINGH CHAUHAN</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Surrogate MTJ Model for Early-stage  MRAM Macro Reliability Analysis</div>
+            <div class="paper-author">Quanhai Zhu,Hao Cai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhancing Heat Dissipation of GaN HEMTs Based on Finite Element Simulation</div>
+            <div class="paper-author">Hongda Chen,Hongzhen Chen,Xiaohan He,Shiming Li,Mei Wu,Xiaohua Ma,Yue Hao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Wide Temperature Behavior Analyses of SiGe HBTs Based on Small-Signal Parameter Extraction Method</div>
+            <div class="paper-author">ZHAO LU,Guofang Yu,Jie Cui,Yue Zhao,Jun Fu,Yanyan Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A physics-based compact model for electromigration failure prediction and dynamic IR-drop evaluation</div>
+            <div class="paper-author">Chenglin YE,Yizhan Liu,Zheng Zhou,Xiaoyan Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Physics-based Compact Model for Ambipolar Schottky-barrier CNTFETs</div>
+            <div class="paper-author">Rui Zhan,Bin Zhou,Zilin Teng,Yiheng Xue,Panpan Zhang,Jianhua Jiang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">On the Evaluation of Remnant Polarization in 3D Cylindrical Hafnia-based Ferroelectric Capacitors</div>
+            <div class="paper-author">Yishan Wu,Puyang Cai,Junwei Guo,Haobo Lin,Xuepei Wang,Jinhao Liu,Boyao Cui,Yichen Wen,Maokun Wu,Runsheng Wang,Sheng Ye,Haibao Chen,Pengpeng Ren,Zhigang Ji,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Compact Modeling of Kink Effect in BULK MOSFETs at Cryogenic Temperatures</div>
+            <div class="paper-author">Aloke K Dutta,NISHA MANZOOR,WAJID MANZOOR,Debashish Nandi,Yogesh singh Chauhan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Physics-Informed Neural Network for Predicting Out-of-Training-Range TCAD Solution with Minimized Domain Expertise</div>
+            <div class="paper-author">Albert Lu,Yu Foon Chau,Hiu Yung Wong</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhancing CAD Workflows: Heterogeneous Graph Attention Networks for Efficient Routing Congestion Prediction in Chip Design</div>
+            <div class="paper-author">Qingyuan Yang,Mingkun Xu,Hongyi Li,Yu Du,Dahu Feng,Rong Zhao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enabling Floating Body Effect in Bulk-Si Transistor for Area and Energy-Efficient Spiking Neuron</div>
+            <div class="paper-author">Shubham Patil,Hemant Hajare,Abhishek Kadam,Jay Sonawane,Shreyas Deshmukh,Veeresh Deshpande,Udayan Ganguly</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Controlling the Clamping Voltage in Punch-Through Diodes via N+ Well and Contact Design for Low Voltage System Level ESD Protection</div>
+            <div class="paper-author">PRAFUL LIKHITKAR,NAVIN MAHESHWARI,SANDIP LASHKARE</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Simulation Optimization of Embedded Microchannel Heat Sink for GaN HEMTs </div>
+            <div class="paper-author">Bowen Yang,Shiming Li,Mei Wu,Ling Yang,Bin Hou,Meng Zhang,Hao Lu,Xiaohua Ma,Yue Hao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Re-examination of Uniaxial Stress Effects in Ultra-scaled GAAFETs</div>
+            <div class="paper-author">Yusi Zhao,Huawei Tang,Rongzheng Ding,Yudong Lv,Yanbo Tang,Shaofeng Yu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Impact of Cross-Sectional Current Crowding on Electromigration in Interconnects</div>
+            <div class="paper-author">Yichen Wen,Shuying Wang,Xiaoman Yang,Hai-Bao Chen,Maokun Wu,Runsheng Wang,Zhigang Ji,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Effective Mass Engineering in Ultra-scaled GAAFETs</div>
+            <div class="paper-author">Yusi Zhao,Huawei Tang,Rongzheng Ding,Yudong Lv,Yanbo Tang,Shaofeng Yu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">CMOS-compatible Si3N4 Optical Waveguides: An Electromagnetic Study for Fabrication Considerations of SiO2 Cladding and Silicon Wafer Choice</div>
+            <div class="paper-author">Wenli Zhou,Rui Yao,Sang Lam</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Threshold Switching Memristor-Based Spiking Neuron Modeling and Simulation</div>
+            <div class="paper-author">Pengyu Liu,Lekai Song,Kong Pang Pun,Guohua Hu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Modeling and Simulation of Prepulse and Pulse Front for 4H-SiC Drift Step Recovery Diode</div>
+            <div class="paper-author">Dengyao Guo,jingkai Guo,Lejia Sun,Yuming Zhang,Qingwen Song,Yu Zhou,Xiaoyan Tang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhancing 3D DRAM Double-gate Device Performance  by Leveraging the Floating Body Effect</div>
+            <div class="paper-author">Jing Liang,Yong Yu,feng shao,Jing Cai,Menglong Zhou,Tiantian Wei,Chunyang Li,Jianpeng Jiang,Bryan Kang,Mingxu Liu,Xiangsheng Wang,Guilei Wang,Chao Zhao,Shaojun Wei</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Novel De-Mirroring Approach for Bias-dependent Capacitance Extraction in Nanosheet FET using Conformal Mapping</div>
+            <div class="paper-author">Deven H Patil,Sandeep Kumar,Sunil Rathore,Sudeb Dasgupta,Navjeet Bagga</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Improved CMOS-Based Noise-Immune Sigmoid Activation Function for Neural Networks</div>
+            <div class="paper-author">Harshita Singh,Anant Singhal,Harshit Agarwal</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Compact Modeling of Silicon Carbide (SiC) Power FETs</div>
+            <div class="paper-author">KARUNESH TRIPATHI,Yogendra Machhiwar,Danish Raja,HARSHIT AGARWAL</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Performance Analysis of Advanced Ferroelectric HfO2 _ ZrO2 Superlattice Gate Stack Transistor with Multi-Phase Ferroelectric Order</div>
+            <div class="paper-author">Danish Raja,Yogendra Machhiwar,KARUNESH TRIPATHI,Girish Pahwa,Harshit Agarwal</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Leveraging Ferroelectric Negative-Capacitance Effect for Energy Efficient Electronics</div>
+            <div class="paper-author">Jie-Ni Dai,Pin Su</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Modelling and Design of Short Channel Ferroelectric FETs with a Metal Interlayer easing the Multilevel Operation</div>
+            <div class="paper-author">Chiara Rossi,Daniel Lizzit,David Esseni</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Novel Low Loss Superjunction MOSFET with Hybrid Conduction Modes</div>
+            <div class="paper-author">Yun Xia,Gang Chen,Yuxi Wan,Wanjun Chen,Ruize Sun,Xiaoming Wang,Yan Wang,Xiaoping Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optimization of the Read Transistor in Hybrid 2T0C DRAM by Co-modeling the Drain Current of a-IGZO and Low Temperature Poly-Silicon TFTs</div>
+            <div class="paper-author">Haolin Li,Xiaoyan Liu,Zheng Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">On-chip photon-mediated magnon-superconducting qubit system and its quantum application</div>
+            <div class="paper-author">Jiacheng LIU,Ferris Prima Nugraha,Qiming SHAO</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Reduced Process Induced Threshold Voltage Variability in Bulk Negative Capacitance Junctionless Transistors</div>
+            <div class="paper-author">Ruma S R,Vita-Pi Ho Hu,Manish Gupta</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multi-physics Modeling of Au/MoS2/Au Memristors combining Molecular Dynamics and Electro-thermal Simulations</div>
+            <div class="paper-author">Mohit Tewari,Ashutosh Amaram,Tarun Agarwal</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Physics-Based Circuit-Compatible Model of Polycrystalline Hafnia-based 3D Ferroelectric Capacitor for High-Density Memory Applications</div>
+            <div class="paper-author">Minyue Deng,Jiayan Zhu,Chang Su,Liang Chen,Shengjie Cao,Qianqian Huang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Particle Swarm Optimization Algorithm Based Parameters Extraction Technique to Model Organic Light-emitting Diode for Flexible Displays</div>
+            <div class="paper-author">jianhui wanghe,Jiachen Kang,Wei Tang,Gufeng He</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Calculation Optimization of Double-Free-Layer Magnetic Tunnel Junction</div>
+            <div class="paper-author">Zifeng Wang,Lang Zeng</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Benchmarking of the BSIM-BULK for Cryo-CMOS Design</div>
+            <div class="paper-author">Wajid Manzoor,NISHA MANZOOR,Yawar Hayat Zarkob,Debashish Nandi,Aloke K Dutta,Yogesh Singh Chauhan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Decoupling Polarization and Trap Charges by Direct Vmid Measurement for Insights into Dynamic Mechanisms of MFMIS-FeFET</div>
+            <div class="paper-author">Wenpu Luo,Runteng Zhu,Hanyong Shao,Yuejia Zhou,Ru Huang,Kechao Tang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Benefits of Using High-Resistivity Substrates for RF ICs</div>
+            <div class="paper-author">Xunyu Li,Albert Wang,Cesar RODA NEVE,Ionut Radu</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Modelling and Simulation (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">BSIM-NN: A Machine Learning Compact Model for Fast IC Simulation</div>
+            <div class="paper-author">Chien-Ting Tung,Sayeef Salahuddin,Chenming Hu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">TCAD and mixed-mode simulation supporting the development of contact-controlled thin-film transistors and circuits</div>
+            <div class="paper-author">Eva Bestelink,Radu Sporea</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Device to Circuit BTI and HCD Aging Analysis Framework</div>
+            <div class="paper-author">Payel Chatterjee,Karansingh Thakor,Souvik Mahapatra</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Cryogenic SEKV Compact Model Applied to 22 nm FDSOI Enabling Low-temperature Circuit Simulation</div>
+            <div class="paper-author">Hung-Chi Han,Yating Zou,Batuhan Keskin,Edoardo Charbon,Christian Enz</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Surface Potential-based Compact Model for IGZO-DRAM  Enables the TCAD-to-SPICE Framework for Reliability-aware DTCO Flow</div>
+            <div class="paper-author">Wenfeng Jiang,Chen Gu,Yue Zhao,Di Geng,Guanhua Yang,Lingfei Wang,Xufan Li,Ling Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Modeling Dynamics-rich Devices with the Dynamic Time Evolution Method</div>
+            <div class="paper-author">Lining ZHANG</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Recent Advances in Compact Modeling for Advanced Semiconductor Technology</div>
+            <div class="paper-author">Runsheng Wang,Baokang Peng,Lining ZHANG,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Compact Modeling of GaN Based RF Switches</div>
+            <div class="paper-author">Yogesh Singh Chauhan,Mir Mohammad Shayoub,Ahtisham Pampori,Mohammad Sajid Nazir</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Performance Evaluation of 6T-SRAM in Sub-3 nm Complementary FET</div>
+            <div class="paper-author">Anirban Kar,Mahdi Benkhelifa,Yogesh Singh Chauhan,Hussam Amrouch</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Physics of Operation of GaN Power Devices: Modeling Device and Circuit Effects using MIT Virtual Source GaNFET (MVSG) Model </div>
+            <div class="paper-author">Ujwal Radhakrishna,Daiyao Xu,Kaiman Chan,Tim Merkin,Ryan Fang,Johan Alant,Lan Wei</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">The IHP OpenPDK Initiative: the status and roadmap</div>
+            <div class="paper-author">Wladek Grabinski</div>
+        </div>
+    
+    </details>
+
+    <details>
+        <summary>Reliability and testing</summary>
+        <div class="paper-block">
+            <div class="paper-title">Impact of Oxide Quality in Self-Aligned Block Region on Hot Carrier Degradation in n-Type CFP-LDMOS with 0.18 繕m Bipolar-CMOS-DMOS Technology</div>
+            <div class="paper-author">Qiao Teng,Yixian Song,Junzhe Kang,Kai Xu,Dawei Gao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Reliability-Aware Device and Programming Scheme Optimization for PBS/NBS-Immune IGZO-based 2T0C DRAM</div>
+            <div class="paper-author">Zhidong Tang,Yanbo Su,Jianshi Tang,Yijia Fan,Yiwei Du,Mingcheng Shi,Yibei Zhang,Dong Wu,Bin Gao,He Qian,Huaqiang Wu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">The Comprehensive Study of Difference between Cryogenic Planar MOSFET and FinFET Variation and Band Tail States Assessment</div>
+            <div class="paper-author">Chenyang Zhang,Yewei Zhang,Yongkang Xue,Shuying Wang,Sheng Yang,Pengpeng Ren,Zhigang Ji,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Understanding the impact of discrete trap positions and mapping the hysteresis dynamics in MoS2 FETs by advanced TCAD modeling</div>
+            <div class="paper-author">Yezhu Lv,Yajing Chai,Yury Illarionov</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Solder Fatigue Life Prediction Method Considering Intermetallic Compound Growth</div>
+            <div class="paper-author">Yikang Wang,Xiaopeng Wu,Jiahao Hou,Can Liu,Yintang Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Analysis of IGZO Ultra-Thin Transistors Under High-gate and Drain Bias Stress</div>
+            <div class="paper-author">Yupeng LU,yanyu Yang,Peng Wang,Jie Luo,yunjiao bao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Effect of the Channel Thickness on the PBS Reliability and 1/f Noise of the ALD Ultrathin ITO Field-Effect Transistor</div>
+            <div class="paper-author">Xuefei Li,Jiaming Zhao,Peiyan Hong</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhanced ESD Protection Techniques for 10V Neurostimulator Circuits in 65nm CMOS Technology</div>
+            <div class="paper-author">Tanay Das,Naef Ahmad,Laxmeesha Somappa,Sandip Lashkare</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Pixel-to-Pixel Variance in Graphene-Silicon Photodetector Arrays </div>
+            <div class="paper-author">Muhammad Anwar,Muhammad Malik,Srikrishna Chanakya Bodepudi,Xiaolei Ding,Yance Chen,Zongwen Li,Zhi-Xiang Zhang,Wenzhang Fang,Huan Hu,Bin Yu,Yang Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhanced Gate Stack Reliability Test Framework for GaN HEMT in High-Stress Environments Leveraging on Ramp and Constant Voltage Stress Protocols</div>
+            <div class="paper-author">Jerry Joseph James,Nagarajan Raghavan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">On the Understanding of  Temperature Dependence of Flicker Noise in Advanced FinFET Technology</div>
+            <div class="paper-author">Sheng Yang,Shuying Wang,Chenyang Zhang,Yongkang Xue,Pengpeng Ren,Zhigang Ji</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Comprehensive Performance Evaluation of 18 Perfluoroelastomers O-Ring Models for Semiconductor Manufacturing</div>
+            <div class="paper-author">Zhanfeng Guo,He Tian,Tian-Ling Ren</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhanced NBTI Characteristics in HfO2/TiAlC RMG Stacks via Low-Temperature H* Remote Plasma Treatment after Interfacial Layer Growth</div>
+            <div class="paper-author">Songyi Jiang,qianqian liu,Hong Yang,mingyang sun,junjie li,jianfeng gao,shuai yang,runsheng wang,jun luo,wenwu wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Impact of Titanium Nitride (TiN) Thickness Uniformity on the Reliability of n-FinFETs: A Comparative Study of ALD and PVD TiN Techniques</div>
+            <div class="paper-author">yunfei shi,Hong Yang,qianqian liu,qingzhu zhang,tao yang,junfeng li,huaxiang yin,Xiaolei Wang,jun luo,wenwu wang,mingyang sun</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Self-heating and Process Induced Performance Barrier on Complementary Field Effect Transistor: A Reliability Perspective</div>
+            <div class="paper-author">Sandeep Kumar,Deven H Patil,Khushi Jain,Ankit Dixit,Sunil Rathore,Mohd. Shakir,Naveen Kumar,Vihar Georgiev,Sudeb Dasgupta,Navjeet Bagga</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Energy-Efficient Temperature-Calibration Readout Circuits with Thermal-State Sensible Sampling and Zoom Window Switch Scheme for RRAM-Based Analog Computing-in-Memory</div>
+            <div class="paper-author">Haisu Zhang,Linbo Shan,Qishen Wang,Zhuoya Chen,Zongwei Wang,Xiyuan Tang,Yunyi Fu,Yimao Cai,Ru Huang</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Reliability and testing (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">HRS Retention of 28 nm BEOL integrated ReRAM</div>
+            <div class="paper-author">Stefan Wiefels,Nils Kopperberg,Stephan Menzel</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Selecting Device, In-Memory Search, and Monolithic 3D Integration of RRAMs and 2D Devices Towards High Reliability and High Efficiency</div>
+            <div class="paper-author">Rui Yang,Yueyang Jia,Maosong Xie,Minliang Shen,YIjian Zhang,Yuzhuo Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">2D Novel Antiferroelectric Materials for Neuromorphic Computing</div>
+            <div class="paper-author">linfeng sun,dongliang yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Impact of Dielectrics on Hysteresis and Bias Stress Stability in Oxide Semiconductor and 2D-Material Field-Effect Transistors</div>
+            <div class="paper-author">Alwin Daus,Sumaiya Wahid,Quynh Phung,Eric Pop</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Packaging and Heterogenous Integration</summary>
+        <div class="paper-block">
+            <div class="paper-title">A 1.8TB/s HBM Heterogeneously Integrated GPU Design Exploring 2.5D Packaging Technology</div>
+            <div class="paper-author">Shuang Wang,Weiliang Chen,Chen Jiang,Xueqing Li,Huazhong Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Synergistic Optimization of Thermal and Electrical Performances in Hetero-integrated 帣-Ga2O3 SBDs</div>
+            <div class="paper-author">Yinfei Xie,Yang He,Zhengyue Li,Wenhui Xu,Tiangui You,Xin Ou,Huarui Sun</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Electrical and Thermal Characterization of Hetero-integrated 帣-Ga2O3-on-Diamond SBDs by Transfer Printing Technology</div>
+            <div class="paper-author">Tiangui You,Xin Ou,Zhenyu Qu,Tiancheng Zhao,jiang haodong,Yeliang Wang,Xinbo Zou,Min Zhou,Wenhui Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Electrical Transport at n-Ga2O3/n-SiC Hetero-interface Constructed by Hydrophilic and Surface Activated Bonding</div>
+            <div class="paper-author">Zhenyu Qu,Wenhui Xu,jiang haodong,Tiancheng Zhao,Yeliang Wang,Haowen Guo,Xinbo Zou,Min Zhou,Tiangui You,Xin Ou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Thermal Analysis of Multi-Chiplet heterogeneous integration  Based on The Lidless Fan-out Package</div>
+            <div class="paper-author">Yongbo Wu,Jiexun Yu,Changming Song,Zheqi Xu,Lin Tan,Qian Wang,Jian Cai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Improved Breakdown Voltage and Leakage Current in 帣-Ga2O3 Schottky Barrier Diode Realized by N Ion-implantation Edge Termination</div>
+            <div class="paper-author">Hao Zhang,Xinlong Zhou,Yinchi Liu,Jining Yang,Handong Zhu,Xun Lu,Shiyu Li,Yeye Guo,Chunlei Wu,Xuning Zhang,Zhenxin Wang,Yaoyi Wang,Ruli Zeng,Yiwen Yu,Wenjun Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">First demonstration of 4-inch GaN on SiO2/Si(100) monolithic integration materials by ion-cutting technique with hydrophilic wafer bonding at elevated temperature</div>
+            <div class="paper-author">雿單 銝,Tiangui You,Xin Ou,Jialiang Sun</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Packaging and Heterogenous Integration (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Diode Microheaters for Scalable Actuation in Micro-Transfer Printing</div>
+            <div class="paper-author">Jiajun Zhang,Qinhua Guo,Xiwen Liu,Yunda Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Heterogeneous Integration of Compound Semiconductor Materials and Devices by Ion-Cutting Technique</div>
+            <div class="paper-author">Tiangui You,Tian Liang,Jiaxin Ding,Jialiang Sun,Shangyu Yang,XIN OU</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">CMOS BEOL-Compatible Three-Dimensional Heterogeneous Integration with Emerging Devices for Advanced Information Processing Systems</div>
+            <div class="paper-author">Jun Luo,Heyi Huang,Shuang Liu,Feixiong Wang,Yanqin Li,Huaxiang Yin,Xiaolei Wang</div>
+        </div>
+    
+    </details>
+
+    <details>
+        <summary>Sensor, MEMS, Bio-Electronics </summary>
+        <div class="paper-block">
+            <div class="paper-title">Investigation of High-Sensitivity Pressure Sensor Integrated with InSnZnO Thin-Film Transistors </div>
+            <div class="paper-author">Mei YANG,Ming Li,Wei Huang,Rongsheng Chen</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A SAW Pressure Sensor based on AlN thin film with a Novel Differential Structure: Balancing Sensitivity Enhancement and Temperature Decoupling</div>
+            <div class="paper-author">Aobei Chen,Dapeng Li,Ge Gao,Chun Hu,Dezhi Zheng</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Broadband Vis-NIR Neuromorphic Photodetector Based on PdSe2/Bi2O2Se Heterotransistor for Motion Detection</div>
+            <div class="paper-author">Yu Zhu,Xinrui Guo,Shuo Liu,Junling Liu,Ru Huang,Ming He</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Enhancing Transduction Efficiency in CMOS-MEMS CMUTs Through Atomic Layer Deposition: A Preliminary Study</div>
+            <div class="paper-author">Tzu-Yun Huang,Ming-Huang Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A 3.98 GHz Aluminum Nitride Overmoded Bulk Acoustic Wave Resonator  for Temperature Sensing Applications</div>
+            <div class="paper-author">Zhi-Qiang Lee,Kuan-Ting Chen,Chin-Yu Chang,Cheng-Chien Lin,Yung-Hsiang Chen,Yelehanka Ramachandramurthy Pradeep,Rakesh Chand,Yenshih Ho,Ming-Huang Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Portable NV (Nitrogen Vacancy) Vector Magnetometer with High Sensitivity and Wide Dynamic Range</div>
+            <div class="paper-author">Yingjie Yang Yang,zongmin Ma,jun liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">DESIGN AND APPLICATION OF A MULTI-MODE SIGNAL CO-DETECTION SYSTEM FOR BRAIN SIGNALS</div>
+            <div class="paper-author">Jianbo Jiang,Xueying Wang,Huiran Yang,Ziyi Zhu,Dujuan Zou,Siyuan Ni,Zhengyu Liang,Guopei Zhou,Tiger H. Tao,Xiaoling WEI,Zhitao Zhou,Liuyang Sun</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Multi-Ion Sensing System on a Chip with Edge Computing Capability</div>
+            <div class="paper-author">Haolin Zhao,Zhancheng Mai,Kai Zhuang,Kai Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multi-Mode Resonance and Temperature Behavior of GaN/SiC SAW Resonators</div>
+            <div class="paper-author">Guofang Yu,Renrong Liang,Deng Luo,Jianjun Chen,Yaqing Chi,Hanhan Sun,Bin Liang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Fluorescent nanodiamond encapsulated liposomes for quantum sensing in nematode worms</div>
+            <div class="paper-author">TAKAKI ARAKAWA,Fumiya Kamada,Kazuki Kinjo,Keisuke Oshimi,Sara Mandi_,Masatoshi Maeki,Manabu Tokeshi,Masazumi Fujiwara</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Spatial microwave magnetic field distribution  mapped by the Permalloy/Ta bilayer sensor</div>
+            <div class="paper-author">Pei Luo,Guanjun Zhang,Wenxu Zhang,Bin Peng</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Fully Printed Polymer Gas Sensors Based on Machine Learning for Calibration-free Mobile Sensing</div>
+            <div class="paper-author">Siying Li,Sujie Chen,Qiuqi Zhang,Yuying Si,Xiaojun Gu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A 12-bit Fully Differential SAR/SS ADC Architecture Based on Scale Reference for  CMOS Image Sensors</div>
+            <div class="paper-author">changhui yang,bolin zhang,jingyang chen,nanbo chen,ziyang hu,gang wang,peng feng,jian liu,nanjian wu,liyuan liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Towards Spectrum Spurious-free and Wideband SAW Devices Based on LN/AT-Quartz Layered Structure</div>
+            <div class="paper-author">Peisen Liu,Sulei Fu,Boyuan Xiao,Xinchen Zhou,Qiufeng Xu,Jiajun Gao,Shuai Zhang,Rui Wang,Cheng Song,Fei Zeng,Weibiao Wang,Feng Pan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dual-Gate Thin-Film Transistor-Based Multi-Parameter Sensor for Comprehensive Water Quality Monitoring in Aquatic Environments</div>
+            <div class="paper-author">Qiang Chen,Qiyi Su,Haolin Zhao,Zhancheng Mai,Kai Zhuang,Yitong Xu,Xinghui Liu,Kai Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Joule Heating Effect on Quality Factor and Frequency Tuning of 2D MoS2 NEMS Resonators</div>
+            <div class="paper-author">Shuai Yuan,Zuheng Liu,Pengcheng Zhang,Rui Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Twisted-placed Multilayer Stack for Inherent Suppression of Transverse modes of Layered SAW Devices</div>
+            <div class="paper-author">Boyuan Xiao,Sulei Fu,Peisen Liu,Xinchen Zhou,Qiufeng Xu,Jiajun Gao,Shuai Zhang,Rui Wang,Cheng Song,Fei Zeng,Weibiao Wang,Feng Pan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multi-channel Intelligent Electronic Nose for Rapid Identification of Complex Hazardous Gases</div>
+            <div class="paper-author">Wenyuan Liu,Jiachuang Wang,zhao fangyu,Nan Qin,Tiger H. Tao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Investigation on the Effect of Self-clocking in MEMS Gyroscope</div>
+            <div class="paper-author">Xuewen Liu,Hongsheng Li,Zhiyuan Wang</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Sensor, MEMS, Bio-Electronics  (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">Nanodiamond quantum thermometers  and their biological applications </div>
+            <div class="paper-author">Masazumi Fujiwara</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Single-crystal Diamond MEMS for Extreme Sensors</div>
+            <div class="paper-author">Meiyong Liao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Development of an Inkjet-Printed Sensor using Ink locked Food-Based Nano Conductive paste for Electrochemical sensing of Insulin: A First attempt</div>
+            <div class="paper-author">Ramya K,Sanket Goel</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">CMOS BEOL Compatible Metal-Oxides Logics and Memories for New Paradigm Computing in the Post-Moore Era</div>
+            <div class="paper-author">Yida Li,Feichi Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Piezoresistive Internal Stress Sensing and Gas Detection via Polymer Swelling</div>
+            <div class="paper-author">Masaya TODA</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Rapid Customizing of Flexible OECTs Arrays for Low-Cost Biosensing and Biocomputing</div>
+            <div class="paper-author">Xinyu Tian,Jing Bai,Dingyao Liu,Shiming Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High-Frequency and Wideband RF Filters for 6G and Wi-Fi 7</div>
+            <div class="paper-author">Chengjie Zuo,Zhongbin Dai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Integrated MEMS Diamond Quantum Magnetometer  with Active Laser Noise Suppression</div>
+            <div class="paper-author">Nan Wang,Xiao Peng,Yaochen Zhu,Qihui Liu,Jiachen Han,Xin Chen,Xin Luo,Yongquan Su,Lihao Wang,Yichen Liu,Hao Chen,Jiangong Cheng,Zhenyu Wu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High performance pixel development for  thin-film based image sensors </div>
+            <div class="paper-author">Jiwon Lee,Minhyun Jin</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Microwave coherent storage based on the long lifetime cavity electromechanical system</div>
+            <div class="paper-author">Tiefu Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">MEMS Integrated with Self-Assembled Electrets</div>
+            <div class="paper-author">Daisuke Yamane</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Quantum Nanophotonics with Hexagonal Boron Nitride</div>
+            <div class="paper-author">igor aharonovich</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">In-Material Multimodal Physical Computing for Multisensory Integration</div>
+            <div class="paper-author">Ming He,Shuo Liu,Junling Liu,Lei Xu,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A fusion of optical microscopy and functional nanomaterials for subcellular-scale thermodynamic control of muscle contraction</div>
+            <div class="paper-author">Madoka Suzuki</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">An energy-efficient microwave magnetic field generator for NV center quantum magnetometers based on an array of four injection-locked VCOs</div>
+            <div class="paper-author">Hadi Lotfi,Qing Yang,Tarek Elrifai,Michal Kern,Jens Anders</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Hybrid Design Method of Lamb Wave Mode Filter Based on Machine Learning and  COM Model</div>
+            <div class="paper-author">Lihang Liao,Chen Ma,Zhiyu Wang,Xiangyu Zou,Zhiyuan Wang,Xi He,Feixuan Huang,Qinghua Ren,Fengyuan Yang,Yiming Ma,Jianlin Chen,Nan Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A compact 256-channel CMOS brain surface recording and stimulation array with soft electrodes</div>
+            <div class="paper-author">David Tsai,Fraser Lachlan,Islam Muhammad Saif Ul,Peijun Qin,Nigel Lovell</div>
+        </div>
+    </details>
+
+
+    <details>
+        <summary>Flexible and Wearable Electronics </summary>
+        <div class="paper-block">
+            <div class="paper-title">High-Performance Flexible Graphene Field-Effect Transistors and Multistage Inverter Chains for Signal Amplification</div>
+            <div class="paper-author">Zhongyang Ren,Pei Peng,Jiaojiao Tian,Chenghao Xia,Muchan Li,Liming Ren,Liu Fei,Yunyi Fu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Interface Engineering on Inorganic__rganic Hybrid Phototransistors for High-responsive Near-infrared Sensing</div>
+            <div class="paper-author">Bowen Zhu,Dingwei Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Submersible Soft Robot with Ultrasonic Echolocation Capabilities</div>
+            <div class="paper-author">Guozhen Shen,Zhongming Chen,Qilin Hua,Jiaqiang Xu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dual Gate-Enhanced Mechanical-Electrical Stability of Flexible InGaZnO TFTs</div>
+            <div class="paper-author">Jilin Li,Yuhan Zhang,Fion Sze Yan Yeung,Man Hoi Wong,Hoi Sing Kwok,Shengdong Zhang,Lei Lu,Runxiao Shi</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Flexible pulse waveform sensor array for cuffless PWV measurement</div>
+            <div class="paper-author">Zhou Jiang,Cunman Liang,Ni Zhao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dynamic Clocked Comparator based on Flexible LTPO Technology</div>
+            <div class="paper-author">Chunxiu Wang,Jiaqiao Liang,Min Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Highly stable Zn metal anodes enabled by In2O3 coating for high-performance flexible aqueous zinc-ion batteries</div>
+            <div class="paper-author">Zhongqi Liang,Xiaohong Tan,Fan Xiao,Yufeng Jin,Guoshen Yang,Hang Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">BEOL Electro-Biological Interface for 1024-Channel TFT Neurostimulator with Cultured DRG Neurons</div>
+            <div class="paper-author">Haobin Zhou,Bowen Liu,Taoming Guo,Hanbin Ma,Chen Jiang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">High-Sensitivity Flexible X-ray Detectors Based on Drop Casting 2D/3D Perovskite Thick Film</div>
+            <div class="paper-author">Liwen Qiu,Bosen Zhang,Qiang Lou,Maojun Sun,Hang Zhou</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A sensing-computing system based on high uniformity photolithographic organic thin film transistor</div>
+            <div class="paper-author">Yaojie Zheng,Taoming Guo,Haobin Zhou,Chen Jiang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Direct 3D force mapping enabled by flexible single-crystal piezoelectric sensor array</div>
+            <div class="paper-author">Jiefei Zhu,Changjian Zhou,Min Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Multi-functional Flexible Intelligent Glove for Gesture Recognition and Combustible Detection</div>
+            <div class="paper-author">Jiachuang Wang,zhao fangyu,Wenyuan Liu,Nan Qin,Tiger Tao</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Flexible and Wearable Electronics (Invited)</summary>
+
+    <div class="paper-block">
+        <div class="paper-title">Flexible carbon nanotube optoelectronic neuromorphic devices and irradiation-resistance logic circuits with low-work-function gate electrodes</div>
+        <div class="paper-author">Meng Deng,Kaixiang Kang,Nianzi Sui,Jiaqi Li,Zebin Wang,zhao jianwen Zhao</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">From Monitoring to Modulation: Intelligent Wearable Devices for Health Sensing and Drug Delivery</div>
+        <div class="paper-author">Ni Zhao,Yuanzhe Li,Shirong Qiu,Zhou Jiang,Cunman Liang,Yixin Qi</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Solution-processed oxide semiconductors-based enhancement-mode thin-film transistor circuits for artificial spiking neurons</div>
+        <div class="paper-author">Jiayi Mao,Qi Huang,Bowen Zhu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Carbon Nanotube-Based High-Performance Bioelectronics</div>
+        <div class="paper-author">Youfan Hu</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Biofuel Cell-Inspired Chemical Sensors for Monitoring Glutamate in Mammalian Central Nervous System</div>
+        <div class="paper-author">Jinghua Li</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">Ultra-low Temperature Solution Processed Organic Thin-film Transistor for Flexible Integration</div>
+        <div class="paper-author">Zikang Mei,Xiaojun Guo</div>
+    </div>
+    </details>
+
+    <details>
+        <summary>Nanotechnologies </summary>
+        <div class="paper-block">
+            <div class="paper-title">A variability-aware data preprocessing method for data-driven memristive device inverse modeling</div>
+            <div class="paper-author">ZhouJie Pan,Yanming Liu,Daixuan Wu,Zihan Zhang,He Tian</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Highly Sensitive and Polarization Selective Au Serrate Nanogratings Fabricated by Nanoimprint Lithography</div>
+            <div class="paper-author">Chunxia Li,Shuyan Zhu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">All-Optical Modulated Artificial Synapse Based on Quantum dots/Oxide Heterojunction for Neuromorphic Visual Simulation</div>
+            <div class="paper-author">Yan Wang,Yingjie Tang,Yitong Chen,Dingwei Li,Huihui Ren,Guolei Liu,Fanfan Li,Qi Huang,Botao Ji,Bowen Zhu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Transistor-Free Analog Content Addressable Memory with High Bit Density</div>
+            <div class="paper-author">Renhao XUE,Quanyi TU,Mansun CHAN,Xiwen LIU</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">5-bit High-Linearity UV-Stimulated Synaptic Device Based on MoS2/GaN Heterostructure</div>
+            <div class="paper-author">Zijia Su,Yong Yan,Haiding Sun,Chengjie Zuo</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Positive and Negative Photoresponses in MoS2 Flakes Photogated by PN Junction Diode</div>
+            <div class="paper-author">yumeng Liu,zhengfang Fan,jianyong wei,yizhuo wang,zhijuan su,yaping dan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Boosting 2D Transistor Performance via TiS2 van der Waals Contact Engineering</div>
+            <div class="paper-author">Jialei Miao,Heng Zhang,Zheng Bian,Tianjiao Zhang,Yuda Zhao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Low-Complexity Method for Shortest Path Optimization Problems based on Nanowire Memristor Network</div>
+            <div class="paper-author">Yanming Liu,Shenghao Wu,Ming Jian,Daixuan Wu,Yanxi Long,He Tian</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Impact of Sb2Se3 annealing on the photoresponse of TiO2/Sb2Se3/Si back-to-back photodiodes </div>
+            <div class="paper-author">Bangsen Ouyang,Yang Chai,Jialiang Wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Flexible and Skin-Compatible rGO/PVDF Composite Sensor for Multi-Functional On-Skin Applications</div>
+            <div class="paper-author">Zijia Su,Luqi Tao,Liwei Liang,Zhifei Xie,Tianling Ren,Yi Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Controlled Metal Doping Method Based on MoS2 Top-gate Transistor</div>
+            <div class="paper-author">Wenzhong Bao,Zhejia Zhang,Jingjie Zhou,Saifei Gou,Yuxuan Zhu,Xiangqi Dong,Mingrui Ao,Qicheng Sun,Yuchen Tian,Jinshu Zhang,Yan Hu,Xinliu He,Haojie Chen,Yufei Song,Jieya Shang,Zhengjie Sun,Xiaojun Tan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Controllable and CMOS Compatible Doping Process for 2D Integrated Circuits</div>
+            <div class="paper-author">Wenzhong Bao,Yuchen Tian,Yan Hu,Shicheng Zeng,Yuxuan Zhu,Saifei Gou,Xiangqi Dong,Zhejia Zhang,Jinshu Zhang,Qicheng Sun,Mingrui Ao,Xinliu He,Haojie Chen,Yufei Song,Jieya Shang,Zihan Xu,Chuming Sheng,Zhengzong Sun</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Nanotechnologies (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">2-D FET Modeling: Why Incorporating the Gate- and Drain-Dependent Source Tunneling Barriers Matter</div>
+            <div class="paper-author">Cristine Jin Estrada,Zichao Ma,Lining Zhang,Mansun Chan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Optimization of Short-channel Top-gate MoS2 FETs via a Non-transfer Fabrication</div>
+            <div class="paper-author">Wenzhong Bao,Haojie Chen,Xinliu He,Jinshu Zhang,Jiahao Wang,Sen Wang,Yuchen Tian,Saifei Gou,Xiangqi Dong,Mingrui Ao,Qicheng Sun,Zhejia Zhang,Yan Hu,Jieya Shang,Yufei Song,Yuxuan Zhu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Epitaxial Growth of Stacking Faults-free  Hexagonal Bilayer MoS2</div>
+            <div class="paper-author">Cheol-Joo Kim</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">On the scalability of nanosheet oxide semiconductor transistors</div>
+            <div class="paper-author">Masaharu Kobayashi,Kaito Hikake,Xingyu Huang,Sunghun Kim,Kota Sakai,Zhuo Li,Tomoko Mizutani,Takuya Saraya,Toshiro Hiramoto,Takanori Takahashi,Mutsunori Uenuma,Yukiharu Uraoka</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Disruptive Technologies (Metaverse, Neuromorphic Computing, Quantum Computing)  </summary>
+        <div class="paper-block">
+            <div class="paper-title">VO2 memristor-based adaptive neurons for electromyography signal processing</div>
+            <div class="paper-author">Rui Yang,Zhiyuan Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Novel FeFET-based Thermometer-Encoded Multibit Content Addressable Memory for Manhattan Distance Metric with High Area- and Energy-Efficiency</div>
+            <div class="paper-author">Weikai Xu,Zeyu Zhang,Qianqian Huang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Spintronic Stochastic Neuron -based Deep Belief Networks for Image Classification</div>
+            <div class="paper-author">Aijaz Lone,Meng Tang,Daniel N. Rahimi,Divyanshu Divyanshu,Camelia Florica,Selma Amara,Hossein Fariborzi,Gianluca Setti</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Artificial Hodgkin__uxley Neurons based on Ferro-ionic CuInP2S6</div>
+            <div class="paper-author">Fan Yang,Lei Liang,Qirui Zhang,Xuemei Wang,Qing Liu,Xiao Luo,Fucai Liu</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Ferroelectric In2Se3 transistors with multi-terminal plasticity for highly efficient hardware implementation of reinforcement learning</div>
+            <div class="paper-author">Yasai WANG,Weiwei Xiong,Jianmin Yan,Yue Zhou,Chaoyi Zhu,Xiangshui Miao,Yuhui He,Yang Chai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">In2Se3 FET-Based Neural Network Circuit Design for  Complete Associative Learning</div>
+            <div class="paper-author">Weiwei Xiong,Yasai WANG,Xiangshui Miao,Yang Chai,Yuhui He</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">RRAM-Based Isotropic CNNs with High Robustness and Resource Utilization Rate</div>
+            <div class="paper-author">Wenyong Zhou,Yuan Ren,Jiajun Zhou,Ngai Wong,Zhengwu Liu,Chenchen Ding</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">A Heterogeneous FTJ-Based Computing-in-Memory Architecture for Vision Transformer Acceleration via Hardware and Algorithm Co-Design</div>
+            <div class="paper-author">Pinfeng Jiang,Zichong Zhang,Yifan Yang,Yilong Fang,Yi Wang,Mingde Zhu,Xiangshui Miao,Xingsheng Wang,letian wang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Memristor-Based Approximate Adders for Efficient In-Memory Computing  in Image Processing</div>
+            <div class="paper-author">Mengjie Li,Fan Yang,Fang Cheng,Xiangshui Miao,Xingsheng Wang,Zhouchao Gan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Hardware Virtualization Technology for Multicore Brain-inspired Chip</div>
+            <div class="paper-author">Dahu Feng,Rong Zhao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title"> Valley Transistors as Graded Neurons for Accurate Action Recognition</div>
+            <div class="paper-author">Jiewei Chen,Wenxiao Wang,Yue Zhou,Yang Chai</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dual Charge-Trapping Nanowire Flash Transistor for Low-Voltage High-Precision Biomimetic Synaptic Device with 1024 States</div>
+            <div class="paper-author">Qing Wang,Haixia Li,Ran Bi,Hongxu Liao,Baotong Zhang,Ru Huang,Ming Li</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Robot Collision Detection Acceleration with In-Memory Search based on the Monolithic 3D Integration of 2D Transistors and Vertical RRAMs</div>
+            <div class="paper-author">YIjian Zhang,JIAHAO SUN,Maosong Xie,Yueyang Jia,Rui Yang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Novel Ferroelectric Tunnel FET-based Computing-in-memory with In-situ XOR Cipher-Encrypted AND-Type Multiply-Accumulate for Secure Edge AI</div>
+            <div class="paper-author">Jin Luo,Zhiyuan Fu,Qianqian Huang,Ru Huang</div>
+    
+        </div>
+
+        <div class="paper-block">
+            <div class="paper-title">Hydrogel-based bipolar synaptic device for Artificial Neural Networks</div>
+            <div class="paper-author">Changjin Wan,Yun Li,mengjiao pei</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Spatiotemporal Encoding Based on Mott Spiking Neurons for Sound Localization</div>
+            <div class="paper-author">Zihan Guo,Linbo Shan,Zongwei Wang,Yimao Cai,Xing Zhang,Ru Huang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Novel Hybrid Gate Ferroelectric Transistor-based Weight Device with High Linearity and Symmetry for On-Chip Learning</div>
+            <div class="paper-author">Yuxin Lin,Jin Luo,Zerui Chen,Qianqian Huang,Ru Huang</div>
+        </div>
+    </details>
+
+    <details>
+        <summary>Disruptive Technologies (Metaverse, Neuromorphic Computing, Quantum Computing) (Invited)</summary>
+        <div class="paper-block">
+            <div class="paper-title">A bio-inspired ionic retina</div>
+            <div class="paper-author">Hongjie Zhang,Kai Xiao</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Theoretical Design of Silicon-Based Nanostructures for Spin Qubits</div>
+            <div class="paper-author">Yang Liu,Shan Guang,Jun-Wei Luo</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Dual Driven Approaches for General Purposed Brain Inspired Computing</div>
+            <div class="paper-author">Luping Shi,Yuqing Cong,Wei Zhang</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Heterogeneously Integrated Intelligent System for Learning at the Edge</div>
+            <div class="paper-author">Wenju Huo,Peng Chen,Peng Lin,Gang Pan</div>
+        </div>
+    
+        <div class="paper-block">
+            <div class="paper-title">Spintronic foundation cells for scalable unconventional computing</div>
+            <div class="paper-author">Zhihua Xiao,Qiming Shao</div>
+        </div>
+    </details>
+    
+    <details>
+        <summary>Industrial Applications  </summary>
+        <div class="paper-block">
+            <div class="paper-title">An Efficient Simulation-time aware Data-Driven Automatic Design Method for Analog Circuit</div>
+            <div class="paper-author">Shun-Qi DAI,Yuan LEI,Bei-Ping YAN</div>
+        </div>
+    </details>
+    
+    <details>
+        <summary> Short course/tutorial (invited)  </summary>
+        <div class="paper-block">
+        <div class="paper-title">Optimal transfer learning strategies for property predictions in materials science</div>
+        <div class="paper-author">Sai Gautam Gopalakrishnan,Reshma Devi,Keith Butler</div>
+    </div>
+
+    <div class="paper-block">
+        <div class="paper-title">A Digital Twin for Advanced Manufacturing of Materials</div>
+        <div class="paper-author">Dipayan Sanpui,Anirban Chandra,Henry Chan,Sukriti Manna,Subramanian Sankaranarayanan</div>
+    </div>
+    </details>
+
+     
+   
+
+
+   
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
