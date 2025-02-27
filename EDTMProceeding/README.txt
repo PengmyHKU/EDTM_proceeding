@@ -14,15 +14,17 @@ Works have done
 
 5. Include affiliations of the authors like the program.
 
+6. Add 4 Plenary talk
+
+
+
 To do next if necessary
 
-1. Add 4 Plenary talk
+1. Add other information which is not related to papers in platform like Coffee Break or Opening Ceremony or FET 100 Special Session
 
-2. Add other information which is not related to papers in platform like Coffee Break or Opening Ceremony or FET 100 Special Session
+2. Check if there is mistake or missing (needs help)
 
-3. Check if there is mistake or missing (needs help)
-
-4. Add links and abstracts for the 6 pdfs which is missing now
+3. Add links and abstracts for the 6 pdfs which is missing now
 
     (1) M-7-1-1 [Keynote] Insulators for Devices Based on 2D Materials. (Keynote) Tibor Grasser, TU Wien, Austria
 
