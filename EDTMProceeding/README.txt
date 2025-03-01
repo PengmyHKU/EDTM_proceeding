@@ -1,6 +1,26 @@
 Please put pdf files directly into the pdf dictionary.
 
 
+## 20250301
+1. Make a minimum version to make what exists consistent with the program book.
+2. Add chairs of the tracks.
+3. Mark the date and weekdays to make it less confusing.
+4. Some bugs fixed.
+
+To do next week
+1. Prepare the csv for the poster (Bo).
+2. Add the poster page (Muyuan).
+3. inspection and testing to check if there is wrong or missing (Keyi).
+4. Add links and abstracts for the 6 missing pdfs (mentioned before).
+    (1) M-7-1-1 [Keynote].
+    (2) M-3-2-1 [Invited].
+    (3) T-9-1-2 [Invited].
+    (4) T-1-1-5 [Invited].
+    (5) T-11-2-1 [Keynote].
+    (6) W-11-3-2 [Invited].
+
+
+
 ## 20250227
 Works have done 
 
@@ -14,17 +34,15 @@ Works have done
 
 5. Include affiliations of the authors like the program.
 
-6. Add 4 Plenary talk
-
-
-
 To do next if necessary
 
-1. Add other information which is not related to papers in platform like Coffee Break or Opening Ceremony or FET 100 Special Session
+1. Add 4 Plenary talk
 
-2. Check if there is mistake or missing (needs help)
+2. Add other information which is not related to papers in platform like Coffee Break or Opening Ceremony or FET 100 Special Session
 
-3. Add links and abstracts for the 6 pdfs which is missing now
+3. Check if there is mistake or missing (needs help)
+
+4. Add links and abstracts for the 6 pdfs which is missing now
 
     (1) M-7-1-1 [Keynote] Insulators for Devices Based on 2D Materials. (Keynote) Tibor Grasser, TU Wien, Austria
 
