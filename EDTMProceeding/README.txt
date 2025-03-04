@@ -1,5 +1,18 @@
 Please put pdf files directly into the pdf dictionary.
 
+##Updates 20250304
+1. Update a new version to make what exists consistent with the latest program book.
+2. Add the poster page for poster paper.
+3. Add link and abstract for 3 new submitted manuscripts (others already added): M-7-1-1 [Keynote] Insulators for Devices Based on 2D Materials. M-3-2-1 [Invited] Ferroelectric 3D NAND Storage. T-1-1-5 [Invited] Phase Change Memory: From Technological Challenges to Materials Science.
+4. tune the homepage font size automatically for smart phone. 
+
+To do next
+1. inspection and testing to check if there is still wrong or missing (Keyi).
+2. Add links and abstracts for the 6 missing pdfs (mentioned before).
+    (1) T-9-1-2 [Invited]. "Advanced Micro-Transfer Printing Technology for Heterogeneous Integration." from Yunda Wang, Hong Kong University of Science and Technology. It is said to check with the track chair that if it is EDTM25-000558 "Diode Microheaters for Scalable Actuation in Micro-Transfer Printing" from the same author, but no feedback yet.
+    (2) T-11-2-1 [Keynote] "Electronic Fabrics and Wearable Systems: Design, Fabrication, Evaluation." from Xiaoming Tao, Hong Kong Polytechnic University. The auther/paper is not found in the platform. And there is also no feedback. 
+    
+
 
 ## 20250301
 1. Make a minimum version to make what exists consistent with the program book.
