@@ -1,5 +1,18 @@
 Please put pdf files directly into the pdf dictionary.
 
+
+Updates 20250307
+1. Fix some bugs.
+2. Make the pdf link to open a new tab rather than opening it in the current window (to easily review several papers). 
+3. Add link and abstract for T-9-1-2 [Invited]. "Advanced Micro-Transfer Printing Technology for Heterogeneous Integration." from the pdf EDTM25-000558 "Diode Microheaters for Scalable Actuation in Micro-Transfer Printing" of the same author with a different title. The pdf file is already contained last time.
+
+To do next
+1. continue to do the inspection and testing to check if there is still wrong or missing (Keyi).
+2. Add links and abstracts for the last missing pdf (leaving the link&abstract blank for now).
+    (1) T-11-2-1 [Keynote] "Electronic Fabrics and Wearable Systems: Design, Fabrication, Evaluation." from Xiaoming Tao, Hong Kong Polytechnic University. The auther/paper is not found in the platform. Checking with the track chair, waiting for a reply. 
+
+
+
 ##Updates 20250304
 1. Update a new version to make what exists consistent with the latest program book.
 2. Add the poster page for poster paper.
