@@ -406,26 +406,29 @@ Temperature Sensing Applications
 Quantum Computing) M-13-1
 "Venue: Conference Hall 6&7, 2/F, 10W"
 "Session Chairs: Han Wang, Yuchao Yang"
-1:40pm M-13-1-1 [Keynote]
-Characterizing building blocks for optoelectronic devices based on twodimensional
-materials by resonant Raman spectroscopy
-"Ping-Heng Tan, Institute of Semiconductors, Chinese Academy of Sciences, China"
-2:00pm M-13-1-2 [Invited]
+1:40pm M-13-1-1 [Invited]
 2D Materials for Future Physical Computing
 "Feng Miao, Nanjing University, China"
-2:20pm M-13-1-3
-In2Se3 FET-Based Neural Network Circuit Design for Complete Associative
-Learning
+2:00pm M-13-1-2 [Invited]
+Characterizing building blocks for optoelectronic devices based on twodimensional
+materials by resonant Raman spectroscopy
+"Jiang-Bin Wu, Institute of Semiconductors, Chinese Academy of Sciences, China"
+2:20pm M-13-1-3 [Invited]
+Colloidal Nanocrystals as Versatile Transducers to Build Advanced Sensing and
+Detection Devices
+"Tianshuo Zhao, University of Hong Kong, Hong Kong SAR, China"
+2:40pm M-13-1-4
+In2Se3 FET-Based Neural Network Circuit Design for Complete Associative Learning
 "Weiwei Xiong,Yasai WANG,Xiangshui Miao,Yang Chai,Yuhui He, Huazhong"
 "University of Science and Technology, China"
-2:35pm M-13-1-4
+2:55pm M-13-1-5
 Two-dimensional ReSe2 based Optoelectronic Synaptic Transistor
-"Wei Zeng, JiYu Zhao,Hang Li,Guanglong Ding,Ye Zhou,Suting Han, The Hong"
+"Wei Zeng,JiYu Zhao,Hang Li,Guanglong Ding,Ye Zhou,Suting Han, The Hong"
 "Kong Polytechnic University, Hong Kong"
-2:50pm M-13-1-5
+3:10pm M-13-1-6
 VO2 memristor-based adaptive neurons for electromyography signal processing
-"Rui Yang, Zhiyuan Li, Huazhong University of Science and Technology, China"
-3:05pm M-13-1-6
+"Rui Yang,Zhiyuan Li, Huazhong university of science and technology, China"
+3:25pm M-13-1-7
 A CMOS-Compatible MoS2 Transistor on Silicon-Rich Silicon Nitride as
 Multifunctional Neuromorphic Device
 "Xiangwei Su,Caijing Liang,Hongzhao Wu,Xinlong Zeng,Yuda Zhao, Zhejiang"
@@ -831,8 +834,7 @@ Valley Transistors as Graded Neurons for Accurate Action Recognition
 "Jiewei Chen,Wenxiao Wang,Yue Zhou,Yang Chai, The Hong Kong Polytechnic"
 "University, Hong Kong"
 11:50am T-13-3-4 [Invited]
-Neuromorphic Multisensory Numerosity Perception Enhanced by a Tactile
-Glove
+Neuromorphic Multisensory Numerosity Perception Enhanced by a Tactile Glove
 "Hongwei Tan, Max Planck Institute for Polymer Research, Germany"
 12:10pm T-13-3-5
 Spintronic Stochastic Neuron -based Deep Belief Networks for Image
@@ -840,6 +842,9 @@ Classification
 "Aijaz Lone,Meng Tang,Daniel N. Rahimi,Divyanshu Divyanshu,Camelia"
 "Florica,Selma Amara,Hossein Fariborzi,Gianluca Setti, King Abdullah University"
 "of Science and Technology, Saudi Arabia"
+12:10pm T-13-3-6 [Invited]
+A bio-inspired ionic retina
+"Kai Xiao, Southern University of Science and Technology, China"
 12:30pm to 1:30pm
 Lunch
 "Venue: Grand Hall B, 1/F, 12W"
@@ -850,6 +855,7 @@ Panel Session
 Theme: Empowering Innovators: Women and Young Professionals
 Pioneering the Future of Electronics
 "Venue: Conference Hall 4&5, 2/F, 10W"
+(Program details please refer to page 108)
 1:30pm-3:00pm
 IEEE EDS Neuromorphic Technology Rump Session
 "Venue: Grand Hall A, 1/F, 12W"
@@ -1194,8 +1200,8 @@ Quantum Computing) T-13-5
 "Flexible artificial neuromorphic electronic materials, devices and systems"
 "Wentao Xu, Nankai University, China"
 5:00pm T-13-5-2 [Invited]
-A bio-inspired ionic retina
-"Kai Xiao, Southern University of Science and Technology, China"
+Van Der Waals Material Device for Neuromorphic Computing
+"Xiaodong Yan, University of Arizona, USA"
 5:20pm T-13-5-3
 A Novel FeFET-based Thermometer-Encoded Multibit Content Addressable
 Memory for Manhattan Distance Metric with High Area- and Energy-
@@ -1204,8 +1210,8 @@ Efficiency
 5:35pm T-13-5-4
 A Heterogeneous FTJ-Based Computing-in-Memory Architecture for Vision
 Transformer Acceleration via Hardware and Algorithm Co-Design
-"Pinfeng Jiang,Zichong Zhang,Yifan Yang,Yilong Fang,Yi Wang,Mingde"
-"Zhu,Xiangshui Miao,Xingsheng Wang,Letian Wang, Huazhong University of"
+"Letian Wang, Pinfeng Jiang,Zichong Zhang,Yifan Yang,Yilong Fang,Yi"
+"Wang,Mingde Zhu,Xiangshui Miao,Xingsheng Wang,Huazhong University of"
 "Science and Technology, China"
 5:50pm T-13-5-5
 RRAM-Based Isotropic CNNs with High Robustness and Resource Utilization
