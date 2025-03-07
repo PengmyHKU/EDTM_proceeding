@@ -2,14 +2,32 @@ Please put pdf files directly into the pdf dictionary.
 
 
 Updates 20250307
-1. Fix some bugs.
-2. Make the pdf link to open a new tab rather than opening it in the current window (to easily review several papers). 
-3. Add link and abstract for T-9-1-2 [Invited]. "Advanced Micro-Transfer Printing Technology for Heterogeneous Integration." from the pdf EDTM25-000558 "Diode Microheaters for Scalable Actuation in Micro-Transfer Printing" of the same author with a different title. The pdf file is already contained last time.
+
+1. update to the server (http://20.2.138.140/EDTMProceeding) according to the new program book.
+
+2. Fix some bugs again.
+
+3. Make the pdf link to open a new tab rather than opening it in the current window (to easily review several papers).
+
+4. Add link and abstract for T-9-1-2 [Invited]. "Advanced Micro-Transfer Printing Technology for Heterogeneous Integration." from the pdf EDTM25-000558 "Diode Microheaters for Scalable Actuation in Micro-Transfer Printing" of the same author with a different title. The pdf file is already contained last time.
+
+
 
 To do next
-1. continue to do the inspection and testing to check if there is still wrong or missing (Keyi).
-2. Add links and abstracts for the last missing pdf (leaving the link&abstract blank for now).
-    (1) T-11-2-1 [Keynote] "Electronic Fabrics and Wearable Systems: Design, Fabrication, Evaluation." from Xiaoming Tao, Hong Kong Polytechnic University. The auther/paper is not found in the platform. Checking with the track chair, waiting for a reply. 
+
+1. Two new added papers/authors are not found in the platform. The link and abstract are left blank now.
+
+    (1) 5:00pm T-13-5-2 [Invited] Van Der Waals Material Device for Neuromorphic Computing. Xiaodong Yan, University of Arizona, USA
+
+    (2) 2:20pm M-13-1-3 [Invited] Colloidal Nanocrystals as Versatile Transducers to Build Advanced Sensing and Detection Devices. Tianshuo Zhao, University of Hong Kong, Hong Kong SAR, China
+
+2. Two talks (one new added) are at the same time for the same track which could be a problem.
+
+3. continue to do the inspection and testing to check if there is still wrong or missing (Keyi).
+
+4. Add links and abstracts for the last missing pdf (leaving the link&abstract blank for now).
+
+    (1) T-11-2-1 [Keynote] "Electronic Fabrics and Wearable Systems: Design, Fabrication, Evaluation." from Xiaoming Tao, Hong Kong Polytechnic University. The auther/paper is not found in the platform. Checking with the track chair, waiting for a reply.
 
 
 
